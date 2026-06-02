@@ -56,7 +56,7 @@ export default function Footer1() {
                       <span>Our Address</span>
                     </div>
                     <a href="/" title="">
-                      7517 wadi Al Janah, An Nasim Ash Sharqi, RQNF7517, An Nasim Ash Sharqi, Riyadh, 3563, Riyadh 14242, Saudi Arabia
+                      7517 Wadi Al Janah, An Nasim Ash Sharqi, Riyadh, Saudi Arabia
                     </a>
                   </div>
                 </div>

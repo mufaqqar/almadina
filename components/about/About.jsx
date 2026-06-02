@@ -29,13 +29,13 @@ export default function About() {
               width={277}
               height={241}
             />
-            <Image
+            {/* <Image
               className="img-about-us-2"
               alt="Image"
               src="/assets/img/Kitchen Renovation.jpg"
               width={250}
               height={400}
-            />
+            /> */}
             <div
               className="themesflat-counter wow fadeInUp clearfix animated"
               style={{ visibility: "visible", animationName: "fadeInUp" }}
@@ -75,31 +75,29 @@ export default function About() {
                 PROFESSIONAL
               </h1>
               <p className="sub-heading wow fadeInDown">
-                The quick, brown fox jumps over a lazy dog. DJs flock by when
-                MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog,
-                flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex!
-                Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt
-                fox. Bright vixens
+                Our experienced team specializes in wood works,
+                 combining skill and precision to deliver durable,
+                  custom-crafted solutions with exceptional quality.
               </p>
             </div>
             <div className="about-us-content">
               <div className="about-us-content-left wow fadeInDown">
                 <ul>
                   <li>
-                    <Link href={`/service-detail`}>Malesuada dictum neque</Link>
+                    <Link href={`/service-detail`}>Skilled carpenters</Link>
                   </li>
                   <li>
-                    <Link href={`/service-detail`}>Malesuada dictum neque</Link>
+                    <Link href={`/service-detail`}>Premium quality materials</Link>
                   </li>
                 </ul>
               </div>
               <div className="about-us-content-right wow fadeInDown">
                 <ul>
                   <li>
-                    <Link href={`/service-detail`}> Tempor commodo </Link>
+                    <Link href={`/service-detail`}> Custom wood designs </Link>
                   </li>
                   <li>
-                    <Link href={`/service-detail`}> Tempor commodo </Link>
+                    <Link href={`/service-detail`}> Durable finishing</Link>
                   </li>
                 </ul>
               </div>

@@ -1,8 +1,8 @@
 export const counterData = [
   {
     icon: "zingbox-icon-author",
-    number: 35,
-    suffix: ",000",
+    number: 15,
+    suffix: ",00",
     title: "Happy Customers",
     wowClass: "fadeInUp",
     marginClass: "margin-right-6",

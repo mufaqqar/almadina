@@ -7,7 +7,7 @@ export default function Copyright() {
         <div className="bottom-bar-inner-wrap">
           <ul className="bottom-bar-content">
             <li>
-              <a href=" ">© Yoursitename {new Date().getFullYear()} </a>|
+              <a href=" ">© AbuSaad {new Date().getFullYear()} </a>|
             </li>
             <li>
               <a href=""> All Rights Reserved</a>

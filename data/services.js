@@ -25,7 +25,7 @@ export const services = [
     iconClass: "zingbox-icon-enegy",
     title: "Kitchen Renovation",
     description:
-      "Upgrade your kitchen with smart cabinets, sleek counters, and quality carpentry.",
+      "Transform your kitchen into a modern, functional, and stylish space with our expert renovation services.",
     animation: "fadeInDown",
     active: false,
   },

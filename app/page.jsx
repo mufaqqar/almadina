@@ -1,3 +1,4 @@
+import Process from "@/components/common/Process";
 import Copyright from "@/components/footers/Copyright";
 import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
@@ -12,8 +13,8 @@ import Team from "@/components/homes/home-1/Team";
 import Testimonials from "@/components/homes/home-1/Testimonials";
 import Works from "@/components/homes/home-1/Works";
 export const metadata = {
-  title: "Home || Zingbox – Wind & Solar Energy React Nextjs Template",
-  description: "Zingbox – Wind & Solar Energy React Nextjs Template",
+  title: "Abu Saad",
+  description: "Abu Saad is an experienced SEO expert specializing in search engine optimization, keyword research, on-page and off-page strategies, and content marketing. He helps businesses improve online visibility, rank higher on Google, and drive organic traffic with proven SEO techniques.",
 };
 export default function Home() {
   return (

@@ -46,19 +46,7 @@ export default function ServiceDetails() {
               Send
             </a>
           </div>
-          {/* /.widget_get-a-quote */}
-          <div className="widget-company-profile">
-            <div className="widget-company-profile-inner-wrap">
-              <h3 className="title">Company Profile</h3>
-              <p className="infor-company">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt
-              </p>
-              <div className="btn-download">
-                <a href="#">Download</a>
-              </div>
-            </div>
-          </div>
+    
         </div>
         <div
           className="themesflat-spacer clearfix"
@@ -77,7 +65,7 @@ export default function ServiceDetails() {
                   alt="Image"
                   width={770}
                   height={500}
-                  src="/assets/img/shortcode/service-detail/service-detail-1.jpg"
+                  src="/assets/img/Custom Furniture.jpg"
                 />
               </Link>
             </div>
@@ -91,22 +79,15 @@ export default function ServiceDetails() {
               {/* /.post-title */}
               <div className="post-content margin-bottom-51">
                 <p>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                  justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-                  sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
-                  ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                  nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                  justo duo dolores et ea
+                  Managing finances becomes easier when you know exactly what to expect each month.
+                  With predictable payments, there are no surprises, hidden fees, or sudden spikes
+                  in costs—just clear, consistent, and manageable payment amounts.
                 </p>
                 <p className="margin-top-19">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                  justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-                  sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+                  Whether it’s for a personal loan, a subscription plan, or a business contract,
+                  predictable payments give you the confidence to plan ahead. Instead of worrying
+                  about fluctuating bills or unexpected charges, you enjoy a steady and reliable
+                  payment schedule that fits seamlessly into your budget.
                 </p>
               </div>
               {/* /.post-excerpt */}
@@ -117,7 +98,7 @@ export default function ServiceDetails() {
                       alt="Image"
                       width={370}
                       height={270}
-                      src="/assets/img/shortcode/service-detail/service-detail-2.jpg"
+                      src="/assets/img/blog-banner.jpg"
                     />
                   </div>
                 </div>
@@ -131,10 +112,9 @@ export default function ServiceDetails() {
                     {/* /.post-title */}
                     <div className="post-content margin-bottom-32">
                       <p>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                        sed diam nonumy eirmod tempor invidunt ut labore et
-                        dolore magna aliquyam erat, sed diam voluptua. At vero
-                        eos et accusam et
+                        At its core, a quality control system is about trust
+                        and reliability—building confidence that what a company
+                        delivers will meet or exceed expectations.
                       </p>
                     </div>
                   </div>
@@ -147,8 +127,9 @@ export default function ServiceDetails() {
                     {/* /.post-title */}
                     <div className="post-content">
                       <p>
-                        Lorem ipsum dolor sit amet, consetetur sadip scing
-                        elitr, sed diam nonumy
+                        At the heart of every successful project is a team of
+                        skilled professionals who bring expertise, precision
+                        and passion to their craft.
                       </p>
                     </div>
                   </div>
@@ -156,65 +137,18 @@ export default function ServiceDetails() {
               </div>
               <h3 className="post-title-service-detail">
                 <span className="post-title-inner">
-                  Fermentum purus fermentum
+                 Fermentum Purus Fermentum – Pure Craft, Pure Growth in Wood Works
                 </span>
               </h3>
               {/* /.post-title */}
               <div className="post-content margin-bottom-40">
                 <p>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                  justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-                  sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
-                  ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                  nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                  justo duo dolores et ea
+                  In the timeless art of woodworking, every piece tells a story of transformation—of raw material shaped into lasting beauty. “Fermentum Purus Fermentum” embodies this very philosophy: pure growth through pure craftsmanship.
+
+                  Just as fermentation turns simple elements into something richer and more refined, our wood works transform natural timber into functional masterpieces. Guided by precision, creativity, and respect for nature, we craft with the belief that purity in process leads to excellence in results.
                 </p>
               </div>
-              {/* /.post-excerpt */}
-              <div className="row-box-service-detail">
-                <div className="col-service-detail">
-                  <div className="box-service-detail text-center">
-                    <div className="icon zingbox-icon-sola-plant margin-left-61" />
-                    <div className="title">Sign up</div>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Duis at est id leo
-                    </p>
-                  </div>
-                </div>
-                <div className="col-service-detail">
-                  <div className="box-service-detail active text-center">
-                    <div className="icon zingbox-icon-Solar-power-lamp margin-left-66" />
-                    <div className="title">Select course</div>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Duis at est id leo
-                    </p>
-                  </div>
-                </div>
-                <div className="col-service-detail">
-                  <div className="box-service-detail text-center">
-                    <div className="icon zingbox-icon-Solar-power-light margin-left-78" />
-                    <div className="title">Start Learning</div>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Duis at est id leo
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="post-content">
-                <p className="margin-0">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                  justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-                  sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
-                </p>
-              </div>
+           
               {/* /.post-excerpt */}
             </div>
             {/* /.post-content-wrap */}

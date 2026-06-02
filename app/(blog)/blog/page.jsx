@@ -5,8 +5,8 @@ import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import React from "react";
 export const metadata = {
-  title: "Blogs || Zingbox – Wind & Solar Energy React Nextjs Template",
-  description: "Zingbox – Wind & Solar Energy React Nextjs Template",
+ title: "Blog - Abu Saad",
+  description: "Abu Saad is an experienced SEO expert specializing in search engine optimization, keyword research, on-page and off-page strategies, and content marketing. He helps businesses improve online visibility, rank higher on Google, and drive organic traffic with proven SEO techniques.",
 };
 export default function page() {
   return (
@@ -15,7 +15,7 @@ export default function page() {
         <div id="wrapper" className="animsition" style={{ opacity: 1 }}>
           <div id="page" className="">
             <Header1 />
-            <PageTitle pageName="Blogs" />
+           <PageTitle pageName="Blog" />
             <div id="main-content" className="site-main clearfix">
               <Blogs />
             </div>

@@ -6,8 +6,8 @@ import Project from "@/components/project/Project";
 
 import React from "react";
 export const metadata = {
-  title: "Projects || Zingbox – Wind & Solar Energy React Nextjs Template",
-  description: "Zingbox – Wind & Solar Energy React Nextjs Template",
+  title: "Project - Abu Saad",
+  description: "Abu Saad is an experienced SEO expert specializing in search engine optimization, keyword research, on-page and off-page strategies, and content marketing. He helps businesses improve online visibility, rank higher on Google, and drive organic traffic with proven SEO techniques.",
 };
 export default function page() {
   return (

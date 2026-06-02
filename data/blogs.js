@@ -147,7 +147,7 @@ export const blogPosts2 = [
   },
   {
     id: 4,
-    imageSrc: "/assets/img/post/post-4.jpg",
+    imageSrc: "/assets/img/Woodwork Inspired by Nature.jpg",
     title: "Woodwork Inspired by Nature",
     date: "28 JANUARY, 2020",
     content:

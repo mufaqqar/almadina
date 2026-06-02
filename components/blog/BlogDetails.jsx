@@ -14,7 +14,7 @@ export default function BlogDetails() {
               <Link href={`/blog-detail`}>
                 <Image
                   alt="Image"
-                  src="/assets/img/post/post-5.jpg"
+                  src="/assets/img/blog-detail.jpg"
                   width={770}
                   height={450}
                 />

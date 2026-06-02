@@ -10,12 +10,14 @@ export default function Experience() {
           </div>
           <div className="row">
             <p className="content">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam{" "}
+              Our team of experienced workers brings years of hands-on expertise, {" "}
               <br />
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam{" "}
+              ensuring every project is completed with precision, efficiency, and care.  {" "}
               <br />
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores
+              Skilled in modern techniques and traditional craftsmanship, they deliver
+              <br />
+              high-quality results that exceed expectations.
+
             </p>
           </div>
           <div className="row">
@@ -25,13 +27,13 @@ export default function Experience() {
                   <li className="left">
                     <Link href={`/service-detail`}>
                       <i className="zingbox-icon-check" />
-                      Sonsectetur adipisicing elit
+                     Skilled & knowledgeable staff
                     </Link>
                   </li>
                   <li className="left">
                     <Link href={`/service-detail`}>
                       <i className="zingbox-icon-check" />
-                      Exercitation ullamco laboris
+                      Reliable and dedicated
                     </Link>
                   </li>
                 </ul>
@@ -41,13 +43,13 @@ export default function Experience() {
                   <li className="right">
                     <Link href={`/service-detail`}>
                       <i className="zingbox-icon-check" />
-                      Eiusmod tempor incididunt
+                      Trained in modern techniques
                     </Link>
                   </li>
                   <li className="right">
                     <Link href={`/service-detail`}>
                       <i className="zingbox-icon-check" />
-                      Aolore magna aliqua
+                      Focused on quality results
                     </Link>
                   </li>
                 </ul>

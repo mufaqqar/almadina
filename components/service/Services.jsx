@@ -19,10 +19,10 @@ export default function Services() {
                 <span className="heading-shadown-text">SERVICES</span>
                 <h1 className="heading">SERVICES FOR YOU</h1>
                 <p className="sub-heading">
-                  Fonsetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                  invidunt ut
+                 High-quality woodwork services, from custom 
+                 furniture to durable  
                   <br />
-                  labore et dolore magna aliquyam
+                finishes, crafted with skill and care.
                 </p>
               </div>
             </div>

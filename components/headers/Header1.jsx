@@ -14,9 +14,9 @@ export default function Header1() {
             <div className="top-bar-content">
               <div className="inner">
                 <span className="location content">
-                  7517 wadi Al Janah, An Nasim Ash Sharqi, RQNF7517, An Nasim Ash Sharqi, Riyadh, 3563, Riyadh 14242, Saudi Arabia
+                  7517 Wadi Al Janah, An Nasim Ash Sharqi, Riyadh, Saudi Arabia
                 </span>
-                <span className="envelope content">info@website.com</span>
+                {/* <span className="envelope content">info@website.com</span> */}
               </div>
             </div>
             {/* /.top-bar-content */}
@@ -47,19 +47,20 @@ export default function Header1() {
       <header id="site-header">
         <div id="site-header-inner" className="container">
           <div className="wrap-inner clearfix">
-            <div id="site-logo" className="clearfix">
-              <div id="site-logo-inner">
-                <Link href={`/`} rel="home" className="main-logo">
+            {/* <div id="site-logo" className="clearfix"> */}
+              {/* <div id="site-logo-inner"> */}
+                <Link href={`/`} rel="home" >
                   <Image
-                    alt="Zingbox"
+                    alt=""
                     data-retina="/assets/img/logo.png"
                     width={180}
                     height={50}
                     src="/assets/img/logo.png"
                   />
                 </Link>
-              </div>
-            </div>
+              {/* </div> */}
+            {/* </div> */}
+
             {/* /#site-logo */}
             <MobileMenuToggle />
             {/* /.mobile-button */}

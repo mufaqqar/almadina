@@ -19,9 +19,7 @@ export default function Contact() {
                 </a>
                 <h1 className="heading">WRITE US A MESSAGE</h1>
                 <p className="sub-heading">
-                  The quick, brown fox jumps over a lazy dog. DJs flock by when
-                  MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds
-                  jog,
+                 Have questions or need assistance? Send us a message and our team will get back to you shortly.
                 </p>
               </div>
               <ul className="socical-icon">

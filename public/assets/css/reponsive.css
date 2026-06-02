@@ -967,12 +967,12 @@
 	}
 	.style-2 .menu-tab .active {
 		padding:0;
-		background-color: #57b33e;
+		background-color: #966F33;
 		width: 100%;
 		margin: 5px 0;
 	}
 	.style-2 .menu-tab li:hover {
-		background-color: #57b33e;
+		background-color: #966F33;
 		width: 100%;
 	}
 	.style-2 .menu-tab li a {

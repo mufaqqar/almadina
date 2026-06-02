@@ -59,7 +59,7 @@
     -webkit-animation: loader-loading-spin .75s linear infinite;
     animation: loader-loading-spin .75s linear infinite;
     border: 5px solid transparent;
-    border-color: #57b33c transparent transparent transparent;
+    border-color: #966F33 transparent transparent transparent;
 }
 .animsition-loading:before,
 .animsition-loading:after {
