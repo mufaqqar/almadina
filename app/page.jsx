@@ -31,8 +31,7 @@ export default function Home() {
               {/* <Team /> */}
               {/* <Works /> */}
               {/* <Process /> */}
-              <Contact />
-             
+              <Contact />             
               <Blogs />
             </div>
             <Footer1 />
