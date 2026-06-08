@@ -1,7 +1,7 @@
 export const services = [
   {
     id: 1,
-    imageSrc: "/assets/img/Custom Furniture.jpg",
+    imageSrc: "/assets/ac-repair.jpg",
     iconClass: "zingbox-icon-sola-plant",
     title: "AC Repair",
     description:
@@ -11,7 +11,7 @@ export const services = [
   },
   {
     id: 2,
-    imageSrc: "/assets/img/Furniture Repair.jpg",
+    imageSrc: "/assets/refrigerator-repair.jpg",
     iconClass: "zingbox-icon-traffic-light",
     title: "Refrigerator Repair",
     description:
@@ -21,7 +21,7 @@ export const services = [
   },
   {
     id: 3,
-    imageSrc: "/assets/img/Kitchen Renovation.jpg",
+    imageSrc: "/assets/washing-machine-repair.jpg",
     iconClass: "zingbox-icon-enegy",
     title: "Automatic Washing Machine Repair",
     description:

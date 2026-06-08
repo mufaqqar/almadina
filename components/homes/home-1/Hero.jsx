@@ -6,7 +6,7 @@ import { Navigation, Pagination } from "swiper/modules";
 import Link from "next/link";
 const slides = [
   {
-    imgSrc: "/assets/img/slider/slider.jpeg",
+    imgSrc: "/assets/ac-repair.jpg",
     imgAlt: "Image ",
     captionTitle: "Fast. Reliable. Affordable.",
     captionSubtitle: "Expert appliance repair services across Riyadh.",
@@ -15,7 +15,7 @@ const slides = [
     btnText: "Get A Quote",
   },
   {
-    imgSrc: "/assets/img/slider/slider.2.jpg",
+    imgSrc: "/assets/ac-repair.jpg",
     imgAlt: "Image ",
     captionTitle: "Professional Repair, Peace of Mind",
     captionSubtitle: "Your appliances are in expert hands.",

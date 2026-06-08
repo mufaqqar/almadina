@@ -70,7 +70,7 @@ export default function Footer1() {
                     <div>
                       <span>Call Us</span>
                     </div>
-                    <a href="tel" title="">
+                    <a href="tel:+966590016774" title="">
                     +966 59 001 6774
                     </a>
                   </div>

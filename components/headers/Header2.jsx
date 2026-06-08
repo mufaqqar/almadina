@@ -37,8 +37,8 @@ export default function Header2() {
                   <div className="call-us">
                     <span>Call Us</span>
                   </div>
-                  <a href="#" title="">
-                    +966 55 867 1274
+                  <a href="tel:+966590016774" title="">
+                    +966 59 001 6774
                   </a>
                 </div>
               </div>
