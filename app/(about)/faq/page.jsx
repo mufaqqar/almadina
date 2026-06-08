@@ -9,7 +9,7 @@ import Header1 from "@/components/headers/Header1";
 
 import React from "react";
 export const metadata = {
-  title: "FAQ - Warsha Repairs",
+  title: "FAQ - Tabreed Mahal",
   description: "Frequently asked questions about AC repair, refrigerator repair, and washing machine repair services in Riyadh. Get answers to common appliance repair questions.",
 };
 export default function page() {

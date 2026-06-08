@@ -7,8 +7,8 @@ import Team from "@/components/team/Team";
 
 import React from "react";
 export const metadata = {
-   title: "Team - Warsha Repairs",
-  description: "Meet the skilled team behind Warsha Repairs. Our experienced technicians specialize in AC, refrigerator, and washing machine repair across Riyadh.",
+   title: "Team - Tabreed Mahal",
+  description: "Meet the skilled team behind Tabreed Mahal. Our experienced technicians specialize in AC, refrigerator, and washing machine repair across Riyadh.",
 };
 export default function page() {
   return (

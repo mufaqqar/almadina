@@ -80,7 +80,7 @@ export default function ServiceDetails() {
               <div className="post-content margin-bottom-51">
                 <p>
                   When your AC stops working in Riyadh's heat or your refrigerator breaks down,
-                  you need fast, reliable repair service. At Warsha Repairs, we specialize in
+                  you need fast, reliable repair service. At Tabreed Mahal, we specialize in
                   diagnosing and fixing all major home appliances with same-day service.
                 </p>
                 <p className="margin-top-19">
@@ -142,7 +142,7 @@ export default function ServiceDetails() {
               {/* /.post-title */}
               <div className="post-content margin-bottom-40">
                 <p>
-                  At Warsha Repairs, every appliance tells a story—and we're here to make sure
+                  At Tabreed Mahal, every appliance tells a story—and we're here to make sure
                   that story continues. From AC units struggling through the summer heat to
                   refrigerators keeping your food fresh and washing machines handling daily loads,
                   we treat every repair with the care and attention it deserves.
@@ -205,7 +205,7 @@ export default function ServiceDetails() {
               {/* /.post-title */}
               <div className="post-content margin-bottom-40">
                 <p>
-                  At Warsha Repairs, every appliance tells a story—and we're here to make sure
+                  At Tabreed Mahal, every appliance tells a story—and we're here to make sure
                   that story continues. From AC units struggling through the summer heat to
                   refrigerators keeping your food fresh and washing machines handling daily loads,
                   we treat every repair with the care and attention it deserves.

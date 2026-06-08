@@ -13,8 +13,8 @@ import Team from "@/components/homes/home-2/Team";
 import Testimonials from "@/components/homes/home-2/Testimonials";
 import React from "react";
 export const metadata = {
-  title: "Warsha Repairs - Home",
-  description: "Warsha Repairs offers expert AC repair, refrigerator repair, and automatic washing machine repair services in Riyadh, Saudi Arabia. Fast, reliable, and affordable.",
+  title: "Tabreed Mahal - Home",
+  description: "Tabreed Mahal offers expert AC repair, refrigerator repair, and automatic washing machine repair services in Riyadh, Saudi Arabia. Fast, reliable, and affordable.",
 };
 export default function page() {
   return (
