@@ -56,8 +56,7 @@ export default function Footer1() {
                       <span>Our Address</span>
                     </div>
                     <a href="/" title="">
-                      7517 Wadi Al Janah, An Nasim Ash Sharqi, Riyadh, Saudi
-                      Arabia
+                       Hatim altai, Ar Rawdah, Riyadh 13213, Saudi Arabia
                     </a>
                   </div>
                 </div>
@@ -71,8 +70,8 @@ export default function Footer1() {
                     <div>
                       <span>Call Us</span>
                     </div>
-                    <a href="#" title="">
-                      +966558671274
+                    <a href="tel" title="">
+                    +966 59 001 6774
                     </a>
                   </div>
                 </div>
@@ -86,9 +85,9 @@ export default function Footer1() {
                     <div>
                       <span>Our Mail</span>
                     </div>
-                    <a href="#" title="">
+                    {/* <a href="mailto:info@warsharepairs.com" title="">
                       info@warsharepairs.com
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>

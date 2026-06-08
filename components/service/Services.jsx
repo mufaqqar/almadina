@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { services3 } from "@/data/services";
+import { services } from "@/data/services";
 export default function Services() {
   return (
     <div className="row-service">
@@ -33,7 +33,7 @@ export default function Services() {
       </div>
       <div id="service-inner" className="container">
         <div className="row">
-          {services3.map((service, i) => (
+          {services.map((service, i) => (
             <div className="col-md-4" key={service.id}>
               <div
                 className={`box-service margin-bottom-300 ${
