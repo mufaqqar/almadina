@@ -75,29 +75,29 @@ export default function About() {
                 PROFESSIONAL
               </h1>
               <p className="sub-heading wow fadeInDown">
-                Our experienced team specializes in wood works,
-                 combining skill and precision to deliver durable,
-                  custom-crafted solutions with exceptional quality.
+                Our experienced team specializes in appliance repair,
+                 combining skill and precision to deliver fast,
+                   reliable solutions with exceptional quality.
               </p>
             </div>
             <div className="about-us-content">
               <div className="about-us-content-left wow fadeInDown">
                 <ul>
                   <li>
-                    <Link href={`/service-detail`}>Skilled carpenters</Link>
+                    <Link href={`/service-detail`}>Skilled technicians</Link>
                   </li>
                   <li>
-                    <Link href={`/service-detail`}>Premium quality materials</Link>
+                    <Link href={`/service-detail`}>Premium quality service</Link>
                   </li>
                 </ul>
               </div>
               <div className="about-us-content-right wow fadeInDown">
                 <ul>
                   <li>
-                    <Link href={`/service-detail`}> Custom wood designs </Link>
+                    <Link href={`/service-detail`}> Fast repair service </Link>
                   </li>
                   <li>
-                    <Link href={`/service-detail`}> Durable finishing</Link>
+                    <Link href={`/service-detail`}> Durable results</Link>
                   </li>
                 </ul>
               </div>

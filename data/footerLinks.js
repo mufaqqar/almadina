@@ -4,9 +4,9 @@ export const widgets = [
     title: "Services",
     className: "widget_services",
     links: [
-      { text: "Custom Furniture", href: "/service-detail" },
-      { text: "Furniture Repair", href: "/service-detail" },
-      { text: "Kitchen Renovation", href: "/service" },
+      { text: "AC Repair", href: "/service-detail" },
+      { text: "Refrigerator Repair", href: "/service-detail" },
+      { text: "Washing Machine Repair", href: "/service" },
     ],
     spacer: { desktop: 10, mobile: 0, smobile: 50 },
   },

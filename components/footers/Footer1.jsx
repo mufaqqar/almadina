@@ -24,7 +24,7 @@ export default function Footer1() {
         "https://express-brevomail.vercel.app/api/contacts",
         {
           email,
-        }
+        },
       );
 
       if ([200, 201].includes(response.status)) {
@@ -56,7 +56,8 @@ export default function Footer1() {
                       <span>Our Address</span>
                     </div>
                     <a href="/" title="">
-                      7517 Wadi Al Janah, An Nasim Ash Sharqi, Riyadh, Saudi Arabia
+                      7517 Wadi Al Janah, An Nasim Ash Sharqi, Riyadh, Saudi
+                      Arabia
                     </a>
                   </div>
                 </div>
@@ -86,7 +87,7 @@ export default function Footer1() {
                       <span>Our Mail</span>
                     </div>
                     <a href="#" title="">
-                      yourname@mail.com
+                      info@warsharepairs.com
                     </a>
                   </div>
                 </div>
@@ -104,32 +105,23 @@ export default function Footer1() {
                     alt="Image"
                     width={180}
                     height={50}
-                    src="/assets/img/logo.png"
+                    src="/assets/logo.jpg"
                   />
                   <p className="margin-bottom-15">
-                    rusted woodwork experts blending
+                    Trusted appliance repair experts
                     <br />
-                     traditional craftsmanship with
+                    serving Riyadh with professional
                     <br />
-                    modern design for homes and offices
+                    AC, fridge, and washing machine repairs
                   </p>
                   <div className="footer-socials">
                     <div className="inner">
                       <span className="icons">
-                        <a className="active" href="https://www.facebook.com/share/1BTiUbW5h7/">
+                        <a className="active" href="https://www.facebook.com/">
                           <i className="fa fa-facebook-square" />
                         </a>
                         <a href="#">
                           <i className="fa fa-twitter" />
-                        </a>
-                        <a href="https://khanexpertcarpenter.com/#jkit_video_button_jeg_module_68_32_68c93058b6978">
-                          <i className="fa fa-google" />
-                        </a>
-                        <a href="#">
-                          <i className="fa fa-linkedin" />
-                        </a>
-                        <a href="#">
-                          <i className="fa fa-pinterest-p" />
                         </a>
                       </span>
                     </div>

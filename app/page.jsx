@@ -13,8 +13,8 @@ import Team from "@/components/homes/home-1/Team";
 import Testimonials from "@/components/homes/home-1/Testimonials";
 import Works from "@/components/homes/home-1/Works";
 export const metadata = {
-  title: "Abu Saad",
-  description: "Abu Saad is an experienced SEO expert specializing in search engine optimization, keyword research, on-page and off-page strategies, and content marketing. He helps businesses improve online visibility, rank higher on Google, and drive organic traffic with proven SEO techniques.",
+  title: "Warsha Repairs",
+  description: "Warsha Repairs offers expert AC repair, refrigerator repair, and automatic washing machine repair services in Riyadh, Saudi Arabia. Fast, reliable, and affordable appliance repair.",
 };
 export default function Home() {
   return (
@@ -28,12 +28,8 @@ export default function Home() {
               <Services />
               <Facts />
               <Experience />
-               <Testimonials />
-              {/* <Team /> */}
-              {/* <Works /> */}
-              {/* <Process /> */}
-              <Contact />             
-              <Blogs />
+               <Testimonials />           
+              <Contact />     
             </div>
             <Footer1 />
             <Copyright />

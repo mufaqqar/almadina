@@ -6,17 +6,17 @@ export default function Experience() {
       <div className="container">
         <div className="row-experiences-content wow zoomInDown">
           <div className="row">
-            <h1 className="heading-experiences">EXPERIENCED WORKERS</h1>
+            <h1 className="heading-experiences">EXPERIENCED TECHNICIANS</h1>
           </div>
           <div className="row">
             <p className="content">
-              Our team of experienced workers brings years of hands-on expertise, {" "}
+              Our team of experienced technicians brings years of hands-on expertise, {" "}
               <br />
-              ensuring every project is completed with precision, efficiency, and care.  {" "}
+              ensuring every repair is completed with precision, efficiency, and care.  {" "}
               <br />
-              Skilled in modern techniques and traditional craftsmanship, they deliver
+              Skilled in modern diagnostic techniques, they deliver
               <br />
-              high-quality results that exceed expectations.
+              high-quality repairs that exceed expectations.
 
             </p>
           </div>

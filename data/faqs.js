@@ -1,32 +1,32 @@
 export const faqs = [
   {
     id: 1,
-    question: "01. What does you do?",
+    question: "01. What appliance repair services do you offer?",
     answer:
-      "Lorem Ipsum is simply dummy of free available in market the printing and typesetting industry has been industry's standard.",
+      "We specialize in AC repair, refrigerator repair, and automatic washing machine repair services across Riyadh, Saudi Arabia. Our team handles all major brands and models.",
   },
   {
     id: 2,
-    question: "02. What is graphics design?",
+    question: "02. Do you offer same-day service in Riyadh?",
     answer:
-      "Lorem Ipsum is simply dummy of free available in market the printing and typesetting industry has been industry's standard.",
+      "Yes, we provide same-day repair services in most areas of Riyadh. Contact us early for the fastest scheduling and we will do our best to accommodate your timing.",
   },
   {
     id: 3,
-    question: "03. Why we are the best?",
+    question: "03. Why choose Warsha Repairs?",
     answer:
-      "Lorem Ipsum is simply dummy of free available in market the printing and typesetting industry has been industry's standard.",
+      "We have years of experience, certified technicians, affordable pricing, and a commitment to quality service. Customer satisfaction is our top priority in every repair job.",
   },
   {
     id: 4,
-    question: "04. What is industries covered?",
+    question: "04. What areas in Riyadh do you cover?",
     answer:
-      "Lorem Ipsum is simply dummy of free available in market the printing and typesetting industry has been industry's standard.",
+      "We cover all neighborhoods in Riyadh including Al Malaz, Al Olaya, An Nasim, Al Rawdah, Al Narjis, and surrounding areas throughout the city.",
   },
   {
     id: 5,
-    question: "05. What is graphics design?",
+    question: "05. How much does appliance repair cost?",
     answer:
-      "Lorem Ipsum is simply dummy of free available in market the printing and typesetting industry has been industry's standard.",
+      "Our pricing depends on the type of appliance and the nature of the repair. We provide free estimates before starting any work, with transparent and competitive rates.",
   },
 ];

@@ -4,54 +4,54 @@ export const articles = [
     className: "acticle wow fadeInUp",
     imgSrc: "/assets/img/The Art of Traditional.jpg",
     date: "28 JANUARY, 2020",
-    title: "The Art of Traditional Woodworking",
+    title: "AC Maintenance Tips for Riyadh Summers",
     content:
-      "Discover timeless techniques and craftsmanship that make classic woodwork unique and durable.",
+      "Keep your AC running efficiently during Riyadh's hot summers with these essential maintenance tips.",
   },
   {
     id: 2,
     className: "acticle wow fadeInDown",
     imgSrc: "/assets/img/Modern Furniture Design.jpg",
     date: "28 JANUARY, 2020",
-    title: "Modern Furniture Design with Wood",
+    title: "Extending Your Refrigerator's Lifespan",
     content:
-      "Learn how contemporary styles combine creativity and practicality in wooden furniture.",
+      "Learn how proper care and timely repairs can extend the life of your refrigerator significantly.",
   },
   {
     id: 3,
     className: "acticle wow fadeInUp",
     imgSrc: "/assets/img/Essential Tools.jpg",
     date: "28 JANUARY, 2020",
-    title: "Essential Tools Every Woodworker Needs",
+    title: "Common Washing Machine Problems & Fixes",
     content:
-      "A guide to the must-have tools for beginners and professionals in woodworking.",
+      "A guide to the most common washing machine issues and when to call a professional.",
   },
   {
     id: 1,
     className: "acticle wow fadeInUp",
     imgSrc: "/assets/img/shortcode/article/article-1.jpg",
     date: "28 JANUARY, 2020",
-    title: "Sustainable Wood Choices for Your Projects",
+    title: "When to Repair vs Replace Your AC Unit",
     content:
-      "Explore eco-friendly wood types that balance beauty with environmental responsibility.",
+      "Explore the factors that help you decide whether to repair or replace your air conditioning unit.",
   },
   {
     id: 2,
     className: "acticle wow fadeInDown",
     imgSrc: "/assets/img/shortcode/article/article-2.jpg",
     date: "28 JANUARY, 2020",
-    title: "Wood Finishing Techniques for Lasting Beauty",
+    title: "Signs Your Refrigerator Needs Servicing",
     content:
-      "Tips and methods to polish, stain, and protect wood for a premium look.",
+      "Tips and warning signs that indicate your refrigerator needs professional repair attention.",
   },
   {
     id: 3,
     className: "acticle wow fadeInUp",
     imgSrc: "/assets/img/shortcode/article/article-3.jpg",
     date: "28 JANUARY, 2020",
-    title: "DIY Wood Projects to Try at Home",
+    title: "Why Regular Appliance Maintenance Matters",
     content:
-      "Simple and creative wooden projects that anyone can build with basic skills.",
+      "Simple maintenance habits that can prevent costly repairs and keep your appliances running smoothly.",
   },
 ];
 
@@ -118,40 +118,40 @@ export const blogPosts2 = [
   {
     id: 1,
     imageSrc: "/assets/img/Custom Furniture.jpg",
-    title: " The Beauty of Custom Woodwork",
+    title: "Professional AC Repair in Riyadh",
     date: "28 JANUARY, 2020",
     content:
-      "At Abu Saad Wood Works, we believe that wood is more than just a material — it’s a story of nature, craftsmanship, and timeless beauty. Our skilled artisans transform raw wood into elegant furniture and interior designs that bring warmth and character to every space. From traditional to modern styles, we create pieces that reflect your personality and lifestyle.",
+      "At Warsha Repairs, we understand how essential a working AC is in Riyadh's climate. Our skilled technicians are trained to diagnose and fix all types of air conditioning issues quickly and efficiently. From minor repairs to major overhauls, we ensure your home stays cool and comfortable all year round.",
     hasEffectIcon: false,
     marginTop: false,
   },
   {
     id: 2,
     imageSrc: "/assets/img/Craftsmanship.jpg",
-    title: "Craftsmanship That Lasts a Lifetime",
+    title: "Reliable Refrigerator Repair Services",
     date: "28 JANUARY, 2020",
     content:
-      "Good design is important, but great craftsmanship is unforgettable. That’s why Abu Saad Wood Works focuses on durability, precision, and detail in every project. Whether it’s custom cabinets, doors, or complete interiors, our work is built to last for generations. Investing in fine woodwork means investing in beauty and strength that stands the test of time.",
+      "A broken refrigerator can disrupt your entire household. That's why Warsha Repairs focuses on fast, reliable, and affordable refrigerator repair services in Riyadh. Whether it's cooling issues, strange noises, or leaks, our experts diagnose the problem accurately and get your fridge running again in no time.",
     hasEffectIcon: true,
     marginTop: false,
   },
   {
     id: 3,
     imageSrc: "/assets/img/Transforming.jpg",
-    title: "Transforming Spaces with Wood",
+    title: "Expert Washing Machine Repair in Riyadh",
     date: "28 JANUARY, 2020",
     content:
-      "Wood has the power to completely transform a space — adding warmth, elegance, and natural charm. At Abu Saad Wood Works, we help homeowners and businesses design interiors that feel inviting and unique. From stylish furniture to complete interior solutions, our goal is to make every space more functional and beautiful through the art of wood.",
+      "Don't let a broken washing machine disrupt your daily routine. At Warsha Repairs, we specialize in repairing all types of automatic washing machines. Our experienced technicians provide fast, reliable service to get your laundry back on track. Same-day service available in Riyadh.",
     hasEffectIcon: true,
     marginTop: true,
   },
   {
     id: 4,
     imageSrc: "/assets/img/Woodwork Inspired by Nature.jpg",
-    title: "Woodwork Inspired by Nature",
+    title: "Appliance Repair Tips for Homeowners",
     date: "28 JANUARY, 2020",
     content:
-      "Every piece of wood tells a story — its texture, grains, and patterns are unique gifts from nature. At Abu Saad Wood Works, we honor this natural beauty by crafting furniture and interiors that highlight the character of wood while blending it with modern design. The result is timeless elegance that connects you with nature every day.",
+      "Regular maintenance can extend the life of your home appliances significantly. At Warsha Repairs, we share expert tips on keeping your AC, refrigerator, and washing machine in top condition. From cleaning filters to checking seals, small steps can prevent big problems and save you money.",
     hasEffectIcon: true,
     marginTop: true,
   },

@@ -8,19 +8,19 @@ const slides = [
   {
     imgSrc: "/assets/img/slider/slider.jpeg",
     imgAlt: "Image ",
-    captionTitle: "Design. Durability. Distinction.",
-    captionSubtitle: "Blending tradition with modern design for timeless woodwork.",
+    captionTitle: "Fast. Reliable. Affordable.",
+    captionSubtitle: "Expert appliance repair services across Riyadh.",
     description:
-      "Abu Saad Wood Works is a trusted name in high–quality wooden furniture, doors, cabinets, and interior designs. We blend traditional craftsmanship with modern design to create timeless wooden products for your home and office.",
+      "Warsha Repairs is a trusted name in AC repair, refrigerator repair, and automatic washing machine repair in Riyadh. We provide fast, reliable, and affordable service for all major brands.",
     btnText: "Get A Quote",
   },
   {
     imgSrc: "/assets/img/slider/slider.2.jpg",
     imgAlt: "Image ",
-    captionTitle: "Luxury Woodwork for Home & Office",
-    captionSubtitle: "Bringing warmth and beauty of wood into your lifestyle.",
+    captionTitle: "Professional Repair, Peace of Mind",
+    captionSubtitle: "Your appliances are in expert hands.",
     description:
-      "At Abu Saad Wood Works, we bring warmth and beauty of wood into your lifestyle with expertly crafted furniture, doors, cabinets, and interiors.",
+      "At Warsha Repairs, we bring professional expertise and same-day service to keep your home running smoothly. AC, fridge, or washing machine — we fix it all.",
     btnText: "Get A Quote",
   },
   // Add more slides as needed

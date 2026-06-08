@@ -13,8 +13,8 @@ import Team from "@/components/homes/home-2/Team";
 import Testimonials from "@/components/homes/home-2/Testimonials";
 import React from "react";
 export const metadata = {
- title: "Abu Saad",
-  description: "Abu Saad is an experienced SEO expert specializing in search engine optimization, keyword research, on-page and off-page strategies, and content marketing. He helps businesses improve online visibility, rank higher on Google, and drive organic traffic with proven SEO techniques.",
+  title: "Warsha Repairs - Home",
+  description: "Warsha Repairs offers expert AC repair, refrigerator repair, and automatic washing machine repair services in Riyadh, Saudi Arabia. Fast, reliable, and affordable.",
 };
 export default function page() {
   return (

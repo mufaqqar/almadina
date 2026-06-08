@@ -3,36 +3,36 @@ export const testimonials = [
     id: 1,
     className: "item1 wow fadeInUp",
     quote:
-      "One of the most reliable local carpenters I’ve worked with. Very professional, honest, and skilled. I’ll definitely hire them again.",
+      "One of the most reliable repair services in Riyadh. Very professional, honest, and skilled. My AC was fixed the same day. I'll definitely call them again.",
     authorName: "Faisal",
-    authorRole: "Tincidunt",
+    authorRole: "Satisfied Customer",
     authorImage: "/assets/img/testimonials.jpg",
   },
   {
     id: 2,
     className: "item2 wow fadeInDown",
     quote:
-      "Fantastic service from a skilled Carpenter in Riyadh. My bedroom furniture looks amazing now. Definitely calling them again.",
+      "Fantastic service from a skilled repair technician in Riyadh. My refrigerator is working perfectly now. Definitely calling them again.",
     authorName: "Fahad",
-    authorRole: "Nulla nec",
+    authorRole: "Happy Client",
     authorImage: "/assets/img/testimonials.jpg",
   },
   {
     id: 3,
     className: "item1 wow fadeInUp",
     quote:
-      "Highly recommend this team if you're searching for a carpenter near me in Riyadh. They handled everything from shelves to cabinets.",
+      "Highly recommend this team if you need washing machine repair in Riyadh. They handled everything quickly and professionally.",
     authorName: "Ali",
-    authorRole: "Tincidunt",
+    authorRole: "Regular Customer",
     authorImage: "/assets/img/testimonials.jpg",
   },
   {
-    id: 2,
+    id: 4,
     className: "item2 wow fadeInDown",
     quote:
-      "If you need a reliable Carpenter in Riyadh, this is your guy. My custom wardrobe was done exactly as I wanted. Highly recommended!",
+      "If you need reliable appliance repair in Riyadh, this is your team. My washing machine was fixed perfectly. Highly recommended!",
     authorName: "Tariq",
-    authorRole: "Nulla nec",
+    authorRole: "Loyal Customer",
     authorImage: "/assets/img/testimonials.jpg",
   },
 ];

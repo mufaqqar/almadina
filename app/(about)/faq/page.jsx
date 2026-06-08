@@ -9,8 +9,8 @@ import Header1 from "@/components/headers/Header1";
 
 import React from "react";
 export const metadata = {
- title: "Faq - Abu Saad",
-  description: "Abu Saad is an experienced SEO expert specializing in search engine optimization, keyword research, on-page and off-page strategies, and content marketing. He helps businesses improve online visibility, rank higher on Google, and drive organic traffic with proven SEO techniques.",
+  title: "FAQ - Warsha Repairs",
+  description: "Frequently asked questions about AC repair, refrigerator repair, and washing machine repair services in Riyadh. Get answers to common appliance repair questions.",
 };
 export default function page() {
   return (

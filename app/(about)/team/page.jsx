@@ -7,8 +7,8 @@ import Team from "@/components/team/Team";
 
 import React from "react";
 export const metadata = {
-   title: "Team - Abu Saad",
-  description: "Abu Saad is an experienced SEO expert specializing in search engine optimization, keyword research, on-page and off-page strategies, and content marketing. He helps businesses improve online visibility, rank higher on Google, and drive organic traffic with proven SEO techniques.",
+   title: "Team - Warsha Repairs",
+  description: "Meet the skilled team behind Warsha Repairs. Our experienced technicians specialize in AC, refrigerator, and washing machine repair across Riyadh.",
 };
 export default function page() {
   return (

@@ -6,7 +6,7 @@ export default function Contact() {
     <div className="col-md-6">
       <div className="w-full h-[900px]  rounded-lg overflow-hidden shadow-lg ">
         <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.999750496492!2d2.292292615674507!3d48.85837307928767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdd1dfb8c49%3A0xb6c8d6b75c8e02e!2sEiffel%20Tower!5e0!3m2!1sen!2sfr!4v1694862359381!5m2!1sen!2sfr"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.292149081696!2d46.737622!3d24.674577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f0385c1e8b9e7%3A0x9e5b5e5b5e5b5e5b!2sRiyadh%20Saudi%20Arabia!5e0!3m2!1sen!2ssa!4v1"
         width="90%"
         height="660"
         allowFullScreen=""
@@ -42,23 +42,23 @@ export default function Contact() {
                       />
                     </div>
                     <div className="tittle-select">
-                      <span>Solar system type?</span>
+                      <span>Service type?</span>
                     </div>
                     <div>
                       <select className="select">
-                        <option value={0}>System Installer</option>
-                        <option value={1}>system type 1</option>
-                        <option value={2}>system type 2</option>
+                        <option value={0}>AC Repair</option>
+                        <option value={1}>Refrigerator Repair</option>
+                        <option value={2}>Washing Machine Repair</option>
                       </select>
                     </div>
                     <div className="tittle-select">
-                      <span>Solar panels place?</span>
+                      <span>Preferred time?</span>
                     </div>
                     <div>
                       <select className="select bottom-select">
-                        <option value={0}>Imperdiet orci</option>
-                        <option value={1}>place 1</option>
-                        <option value={2}>place 2</option>
+                        <option value={0}>Morning (9AM-12PM)</option>
+                        <option value={1}>Afternoon (12PM-4PM)</option>
+                        <option value={2}>Evening (4PM-8PM)</option>
                       </select>
                     </div>
                   </div>
@@ -72,29 +72,29 @@ export default function Contact() {
                     </div>
                     <div>
                       <select className="select">
-                        <option value={0}>Choose services</option>
-                        <option value={1}>service 1</option>
-                        <option value={2}>service 2</option>
+                        <option value={0}>Choose service</option>
+                        <option value={1}>AC Repair</option>
+                        <option value={2}>Refrigerator Repair</option>
                       </select>
                     </div>
                     <div className="tittle-select">
-                      <span>Solar panels place?</span>
+                      <span>Urgency level?</span>
                     </div>
                     <div>
                       <select className="select">
-                        <option value={0}>Odio metus</option>
-                        <option value={1}>place 1</option>
-                        <option value={2}>place 2</option>
+                        <option value={0}>Within 24 hours</option>
+                        <option value={1}>Within 3 days</option>
+                        <option value={2}>Within a week</option>
                       </select>
                     </div>
                     <div className="tittle-select">
-                      <span>Materials on your roof?</span>
+                      <span>Appliance brand?</span>
                     </div>
                     <div>
                       <select className="select">
-                        <option value={0}>Maecenas ligula</option>
-                        <option value={1}>Maecenas ligula</option>
-                        <option value={2}>Maecenas ligula</option>
+                        <option value={0}>Samsung</option>
+                        <option value={1}>LG</option>
+                        <option value={2}>Other</option>
                       </select>
                     </div>
                   </div>

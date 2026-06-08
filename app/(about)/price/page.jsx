@@ -7,8 +7,8 @@ import Facts from "@/components/pricing/Facts";
 import Services from "@/components/pricing/Services";
 import React from "react";
 export const metadata = {
- title: "Price - Abu Saad",
-  description: "Abu Saad is an experienced SEO expert specializing in search engine optimization, keyword research, on-page and off-page strategies, and content marketing. He helps businesses improve online visibility, rank higher on Google, and drive organic traffic with proven SEO techniques.",
+  title: "Pricing - Warsha Repairs",
+  description: "Transparent pricing for AC repair, refrigerator repair, and washing machine repair in Riyadh. Affordable rates with quality service guaranteed.",
 };
 export default function page() {
   return (

@@ -14,7 +14,7 @@ export default function Header1() {
             <div className="top-bar-content">
               <div className="inner">
                 <span className="location content">
-                  7517 Wadi Al Janah, An Nasim Ash Sharqi, Riyadh, Saudi Arabia
+                 Hatim altai, Ar Rawdah, Riyadh 13213, Saudi Arabia
                 </span>
                 {/* <span className="envelope content">info@website.com</span> */}
               </div>
@@ -23,16 +23,16 @@ export default function Header1() {
             <div className="top-bar-socials">
               <div className="inner">
                 <span className="icons">
-                  <a href="https://www.facebook.com/share/1BTiUbW5h7/">
+                  <a href="https://www.facebook.com/#">
                     <i className="fa fa-facebook" />
                   </a>
                   <a href="#">
                     <i className="fa fa-twitter" />
                   </a>
-                  <a href="https://khanexpertcarpenter.com/#jkit_video_button_jeg_module_68_32_68c93058b6978">
+                  <a href="#">
                     <i className="fa fa-google-plus" />
                   </a>
-                  <a href="https://www.instagram.com/khan0558204694?igsh=bm54ajJzcnA5czRw&utm_source=ig_contact_invite">
+                  <a href="https://www.instagram.com/#">
                     <i className="fa fa-instagram" />
                   </a>
                 </span>
@@ -52,10 +52,10 @@ export default function Header1() {
                 <Link href={`/`} rel="home" >
                   <Image
                     alt=""
-                    data-retina="/assets/img/logo.png"
+                    data-retina="/assets/logo.jpg"
                     width={180}
                     height={50}
-                    src="/assets/img/logo.png"
+                    src="/assets/logo.jpg"
                   />
                 </Link>
               {/* </div> */}

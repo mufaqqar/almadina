@@ -31,12 +31,11 @@ export default function Experience2() {
               className="themesflat-headings style-1 clearfix wow fadeInUp animated"
               style={{ visibility: "visible", animationName: "fadeInUp" }}
             >
-              <h1 className="heading padding-bottom-10">EXPERIENCED WORKERS</h1>
+              <h1 className="heading padding-bottom-10">EXPERIENCED TECHNICIANS</h1>
               <p className="sub-heading padding-bottom-40">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                justo duo dolores
+                Our skilled technicians have years of experience repairing
+                AC units, refrigerators, and washing machines across Riyadh.
+                We deliver fast, reliable service every time.
               </p>
             </div>
             <div
@@ -46,11 +45,11 @@ export default function Experience2() {
               <div className="icon zingbox-icon-Solar-power-light" />
               <div className="text-wrap">
                 <h3 className="heading">
-                  <Link href={`/service-detail`}>Gynecology</Link>
+                  <Link href={`/service-detail`}>AC Repair</Link>
                 </h3>
                 <p className="sub-heading">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor
+                  Professional air conditioning repair and maintenance
+                  services in Riyadh for all major brands.
                 </p>
               </div>
             </div>
@@ -61,11 +60,11 @@ export default function Experience2() {
               <div className="icon zingbox-icon-Solar-power-light" />
               <div className="text-wrap">
                 <h3 className="heading">
-                  <Link href={`/service-detail`}>Gynecology</Link>
+                  <Link href={`/service-detail`}>Refrigerator Repair</Link>
                 </h3>
                 <p className="sub-heading">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor
+                  Expert refrigerator repair services with fast diagnosis
+                  and reliable solutions.
                 </p>
               </div>
             </div>

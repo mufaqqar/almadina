@@ -9,9 +9,8 @@ export default function Pricing() {
           <div className="themesflat-headings style-2 text-center margin-bottom-25px clearfix">
             <h1 className="heading">CHOOSE A PLAN</h1>
             <p className="sub-heading margin-top-17">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed
+              Transparent pricing for all our repair services in Riyadh.
+              Quality service at affordable rates, with no hidden fees.
             </p>
           </div>
         </div>
