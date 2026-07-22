@@ -14,7 +14,7 @@ export default function BlogDetails() {
               <Link href={`/blog-detail`}>
                 <Image
                   alt="Image"
-                  src="/assets/img/blog-detail.jpg"
+                  src="/assets/ac-repair.jpg"
                   width={770}
                   height={450}
                 />
@@ -33,7 +33,7 @@ export default function BlogDetails() {
                     </span>
                     <span className="post-date item">
                       <span className="inner">
-                        <span className="entry-date">28 JANUARY, 2020</span>
+                        <span className="entry-date">15 MARCH, 2025</span>
                       </span>
                     </span>
                   </div>
@@ -42,50 +42,33 @@ export default function BlogDetails() {
               {/* /.post-meta */}
               <h6 className="post-title-detail">
                 <span className="post-title-inner">
-                  Social media-driven trading frenzy for GameStop, AMC
-                  Entertainment sparks calls for scrutiny
+                  Essential AC Maintenance Tips for Riyadh Residents
                 </span>
               </h6>
               {/* /.post-title */}
               <div className="post-content">
                 <p>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                  justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-                  sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
-                  ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                  nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                  justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-                  sea takimata sanctus est Lorem ipsum dolor sit amet.
+                  Living in Riyadh means your air conditioner works overtime for most of the year. With summer temperatures regularly exceeding 45°C, a well-maintained AC is not just a luxury — it's a necessity. At Al Madina Tabreed, we've been helping Riyadh residents keep their homes cool and comfortable with professional AC repair and maintenance services.
                 </p>
                 <p>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua. At vero eos et accusam
+                  Regular maintenance is the key to extending the lifespan of your air conditioning unit and avoiding costly emergency repairs. Here are our top recommendations for keeping your AC in peak condition throughout the year.
                 </p>
               </div>
               {/* /.post-excerpt */}
               <div className="post-author">
                 <p>
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                  aliquyam erat, sed diam voluptua.
+                  Schedule professional maintenance at least twice a year — before summer and before winter. Our technicians perform thorough inspections, clean critical components, and identify potential issues before they become major problems.
                 </p>
                 <Link href={`/team`} className="tittle author">
-                  Marilyn Gilbert
+                  Al Madina Tabreed
                 </Link>
               </div>
               <div className="post-content style1">
                 <p>
-                  labore et dolore magna aliquyam erat, sed diam voluptua. At
-                  vero eos et accusam et justo duo dolores et ea rebum. Stet
-                  clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-                  dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-                  sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                  labore et dolore magna aliquyam erat, sed diam voluptua. At
-                  vero eos et accusam
+                  Start by checking and cleaning the air filters every month during peak summer. Dirty filters restrict airflow and force your unit to work harder, increasing energy bills by up to 15%. Keep the outdoor condenser unit clear of debris, dust, and plants to ensure proper heat exchange. Listen for unusual sounds like grinding or squealing, which could indicate worn-out bearings or motor issues.
+                </p>
+                <p>
+                  If you notice weak airflow, warm air blowing, or water leaking around the indoor unit, it's time to call our expert technicians. These symptoms often indicate refrigerant leaks, clogged drain lines, or failing compressors that require professional attention.
                 </p>
               </div>
               <div className="post-img">
@@ -98,38 +81,37 @@ export default function BlogDetails() {
               </div>
               <h6 className="post-title-detail style1">
                 <span className="post-title-inner">
-                  AMC Entertainment sparks calls for scrutiny
+                  When to Call a Professional
                 </span>
               </h6>
               {/* /.post-title */}
               <div className="post-content style2">
                 <p>
-                  labore et dolore magna aliquyam erat, sed diam voluptua. At
-                  vero eos et accusam et justo duo dolores et ea rebum. Stet
-                  clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-                  dolor sit amet. Lorem ipsum dolor sit amet, consetetur
-                  sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                  labore et dolore magna aliquyam erat, sed diam voluptua. At
-                  vero eos et accusam
+                  While some maintenance tasks like filter cleaning can be done yourself, many AC issues require professional expertise. If your AC is blowing warm air, making strange noises, leaking water, or has a foul smell when running, contact Al Madina Tabreed immediately. Our certified technicians have the tools and experience to diagnose and fix any AC problem quickly and efficiently.
+                </p>
+                <p>
+                  We offer same-day service across Riyadh, including Ar Rayyan, Al Olaya, Al Malaz, and surrounding neighborhoods. Regular professional servicing not only extends the life of your AC but also improves indoor air quality and prevents unexpected breakdowns during the hottest days.
                 </p>
               </div>
               <ul>
                 <li>
                   <span>
-                    <i className="fa fa-check" /> sed diam nonumy eirmod tempor
-                    invidunt ut labore et dolore magna aliquyam
+                    <i className="fa fa-check" /> Clean or replace air filters monthly
                   </span>
                 </li>
                 <li>
                   <span>
-                    <i className="fa fa-check" /> Stet clita kasd gubergren, no
-                    sea takimata sanctus
+                    <i className="fa fa-check" /> Schedule professional maintenance twice yearly
                   </span>
                 </li>
                 <li>
                   <span>
-                    <i className="fa fa-check" /> Lorem ipsum dolor sit amet,
-                    consetetur sadipscing elitr
+                    <i className="fa fa-check" /> Keep outdoor unit clear of debris
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    <i className="fa fa-check" /> Call experts at the first sign of trouble
                   </span>
                 </li>
               </ul>
@@ -138,7 +120,7 @@ export default function BlogDetails() {
                   <span className="title">Related Tags :</span>
                   <div>
                     <span className="tag-name">
-                      Business. Corporate. Agency
+                      AC Repair. AC Maintenance. Riyadh. Appliance Care
                     </span>
                   </div>
                 </div>
@@ -179,14 +161,12 @@ export default function BlogDetails() {
                   </div>
                   <div className="comment-content">
                     <div className="comment-meta">
-                      <h6 className="comment-author">Aaron Holmes</h6>
-                      <span className="comment-time">May 18</span>
+                      <h6 className="comment-author">Khalid Al Otaibi</h6>
+                      <span className="comment-time">March 16, 2025</span>
                     </div>
                     <div className="comment-text">
                       <p>
-                        Proin ac quam et lectus vestibulum blandit. Nunc maximus
-                        nibh at placerat tincidunt. Nam sem lacus, ornare non
-                        ante sed, ultricies fringilla massa. Ut congue, elit non
+                        Great tips! I followed your advice about cleaning the filters and noticed an immediate improvement in cooling. Highly recommend Al Madina Tabreed for anyone in Riyadh needing AC service.
                       </p>
                       <span className="comment-reply">
                         <a className="comment-reply-link" href="#">
@@ -209,16 +189,14 @@ export default function BlogDetails() {
                       </div>
                       <div className="comment-content">
                         <div className="comment-meta">
-                          <h6 className="comment-author">Carol Sullivan</h6>
+                          <h6 className="comment-author">Al Madina Tabreed</h6>
                           <span className="comment-time style-2">
-                            December 22
+                            March 17, 2025
                           </span>
                         </div>
                         <div className="comment-text">
                           <p>
-                            Pellentesque habitant morbi tristique senectus et
-                            netus et malesuada fames ac turpis egestas. Ut arcu
-                            libero, pulvinar non
+                            Thank you, Khalid! We're glad the tips helped. Don't hesitate to reach out if you ever need professional AC repair or maintenance.
                           </p>
                           <span className="comment-reply">
                             <a className="comment-reply-link" href="#">

@@ -2,7 +2,6 @@ export const menuItems = [
   {
     title: "Home",
     href: "/",
-
   },
   {
     title: "About Us",

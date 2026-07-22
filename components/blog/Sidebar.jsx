@@ -36,21 +36,21 @@ export default function Sidebar() {
           <h3 className="widget-title">
             <span>Category</span>
           </h3>
-          <ul className="list-category">
+            <ul className="list-category">
             <li>
-              <Link href={`/blog`}>Tempor lorem interdum</Link>
+              <Link href={`/blog`}>AC Repair</Link>
             </li>
             <li>
-              <Link href={`/blog`}>Auctor mattis lacus </Link>
+              <Link href={`/blog`}>Refrigerator Repair</Link>
             </li>
             <li>
-              <Link href={`/blog`}>Dolor proin </Link>
+              <Link href={`/blog`}>Washing Machine Repair</Link>
             </li>
             <li>
-              <Link href={`/blog`}>Pharetra amet </Link>
+              <Link href={`/blog`}>Maintenance Tips</Link>
             </li>
             <li>
-              <Link href={`/blog`}>Nullam dolor gravida </Link>
+              <Link href={`/blog`}>Appliance Care</Link>
             </li>
           </ul>
         </div>
@@ -92,7 +92,7 @@ export default function Sidebar() {
         <div id="widget-banner" className="widget-banner clearfix">
           <div id="widget-banner-inner" className="container clearfix">
             <div className="widget-banner-inner-wrap">
-              <h5 className="your-headline-here">YOUR HEADLINE HERE</h5>
+              <h5 className="your-headline-here">Need Appliance Repair?</h5>
               <div className="btn your-headline-here">
                 <Link href={`/contact`}>Get A Quote</Link>
               </div>
