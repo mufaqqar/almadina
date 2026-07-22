@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { services2 } from "@/data/services";
+import { services } from "@/data/services";
 export default function Services() {
   return (
     <div className="row-service style-2">
@@ -33,7 +33,7 @@ export default function Services() {
       </div>
       <div id="service-inner" className="container">
         <div className="row">
-          {services2.map((service) => (
+          {services.map((service) => (
             <div className="col-md-4" key={service.id}>
               <div className={`box-service wow ${service.animation}`}>
                 <div className="service-inner-img">

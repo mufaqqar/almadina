@@ -15,8 +15,8 @@ export default function Header2() {
               <Link href={`/`} rel="home" className="main-logo">
                 <Image
                   alt="Al Madina Tabreed"
-                  data-retina="/assets/img/logo.png"
-                  src="/assets/img/logo.png"
+                  data-retina="/assets/logo.png"
+                  src="/assets/logo.png"
                   width={180}
                   height={50}
                 />

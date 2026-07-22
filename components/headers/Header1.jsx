@@ -52,10 +52,10 @@ export default function Header1() {
                 <Link href={`/`} rel="home" >
                   <Image
                     alt=""
-                    data-retina="/assets/logo.jpg"
+                    data-retina="/assets/logo.png"
                     width={180}
                     height={50}
-                    src="/assets/logo.jpg"
+                    src="/assets/logo.png"
                   />
                 </Link>
               {/* </div> */}
