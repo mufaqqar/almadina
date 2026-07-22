@@ -9,8 +9,8 @@ import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import React from "react";
 export const metadata = {
-   title: "About Us - Tabreed Mahal",
-  description: "Tabreed Mahal is a trusted appliance repair company in Riyadh, specializing in AC repair, refrigerator repair, and automatic washing machine repair. Learn more about our story.",
+   title: "About Us - Al Madina Tabreed",
+  description: "Al Madina Tabreed is a trusted appliance repair company in Riyadh, specializing in AC repair, refrigerator repair, and automatic washing machine repair. Learn more about our story.",
 };
 export default function page() {
   return (

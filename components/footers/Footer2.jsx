@@ -62,8 +62,7 @@ export default function Footer2() {
                   height={51}
                 />
                 <p className="margin-bottom-15">
-                  Lorem ipsum dolor sit amet, consect etuer adipiscing elit, sed
-                  diam nonu mmy nibh euis
+                    Trusted appliance repair experts serving Riyadh with professional AC, fridge, and washing machine repairs
                 </p>
                 <div className="footer-socials">
                   <div className="inner">

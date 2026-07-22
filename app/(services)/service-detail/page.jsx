@@ -6,7 +6,7 @@ import ServiceDetails from "@/components/service/ServiceDetails";
 
 import React from "react";
 export const metadata = {
-     title: "Service Details - Tabreed Mahal",
+     title: "Service Details - Al Madina Tabreed",
      description: "Learn more about our AC repair, refrigerator repair, and washing machine repair services in Riyadh. Professional appliance repair you can trust.",
 };
 export default function page() {

@@ -56,7 +56,7 @@ export default function Footer1() {
                       <span>Our Address</span>
                     </div>
                     <a href="/" title="">
-                       Hatim altai, Ar Rawdah, Riyadh 13213, Saudi Arabia
+                       Prince Majed Bin Abdulaziz Rd, Ar Rayyan, Riyadh 14214, Saudi Arabia
                     </a>
                   </div>
                 </div>
@@ -70,8 +70,8 @@ export default function Footer1() {
                     <div>
                       <span>Call Us</span>
                     </div>
-                    <a href="tel:+966590016774" title="">
-                    +966 59 001 6774
+                    <a href="tel:+966583086233" title="">
+                    +966 58 308 6233
                     </a>
                   </div>
                 </div>

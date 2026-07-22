@@ -6,7 +6,7 @@ export default function Contact() {
     <div className="col-md-6">
       <div className="w-full h-[900px]  rounded-lg overflow-hidden shadow-lg ">
         <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.292149081696!2d46.737622!3d24.674577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f0385c1e8b9e7%3A0x9e5b5e5b5e5b5e5b!2sRiyadh%20Saudi%20Arabia!5e0!3m2!1sen!2ssa!4v1"
+        src="https://www.google.com/maps?q=Prince+Majed+Bin+Abdulaziz+Rd+Ar+Rayyan+Riyadh+14214+Saudi+Arabia&output=embed"
         width="90%"
         height="660"
         allowFullScreen=""

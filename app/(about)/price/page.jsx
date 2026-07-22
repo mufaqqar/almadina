@@ -7,7 +7,7 @@ import Facts from "@/components/pricing/Facts";
 import Services from "@/components/pricing/Services";
 import React from "react";
 export const metadata = {
-  title: "Pricing - Tabreed Mahal",
+  title: "Pricing - Al Madina Tabreed",
   description: "Transparent pricing for AC repair, refrigerator repair, and washing machine repair in Riyadh. Affordable rates with quality service guaranteed.",
 };
 export default function page() {

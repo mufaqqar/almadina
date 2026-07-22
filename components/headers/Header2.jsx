@@ -14,7 +14,7 @@ export default function Header2() {
             <div>
               <Link href={`/`} rel="home" className="main-logo">
                 <Image
-                  alt="Zingbox"
+                  alt="Al Madina Tabreed"
                   data-retina="/assets/img/logo.png"
                   src="/assets/img/logo.png"
                   width={180}
@@ -37,8 +37,8 @@ export default function Header2() {
                   <div className="call-us">
                     <span>Call Us</span>
                   </div>
-                  <a href="tel:+966590016774" title="">
-                    +966 59 001 6774
+                  <a href="tel:+966583086233" title="">
+                    +966 58 308 6233
                   </a>
                 </div>
               </div>

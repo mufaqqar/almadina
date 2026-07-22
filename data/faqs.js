@@ -13,7 +13,7 @@ export const faqs = [
   },
   {
     id: 3,
-    question: "03. Why choose Tabreed Mahal?",
+    question: "03. Why choose Al Madina Tabreed?",
     answer:
       "We have years of experience, certified technicians, affordable pricing, and a commitment to quality service. Customer satisfaction is our top priority in every repair job.",
   },

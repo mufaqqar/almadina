@@ -8,7 +8,7 @@ export default function Copyright2() {
           <div className="bottom-bar-content">
             <div id="copyright">
               <a className="margin-right-3" href="#">
-                © Yoursitename
+                © Al Madina Tabreed
               </a>
               <span className="text">
                 {new Date().getFullYear()} | All Rights Reserved{" "}

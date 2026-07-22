@@ -11,7 +11,7 @@ const slides = [
     captionTitle: "Fast. Reliable. Affordable.",
     captionSubtitle: "Expert appliance repair services across Riyadh.",
     description:
-      "Tabreed Mahal is a trusted name in AC repair, refrigerator repair, and automatic washing machine repair in Riyadh. We provide fast, reliable, and affordable service for all major brands.",
+      "Al Madina Tabreed is a trusted name in AC repair, refrigerator repair, and automatic washing machine repair in Riyadh. We provide fast, reliable, and affordable service for all major brands.",
     btnText: "Get A Quote",
   },
   {
@@ -20,7 +20,7 @@ const slides = [
     captionTitle: "Professional Repair, Peace of Mind",
     captionSubtitle: "Your appliances are in expert hands.",
     description:
-      "At Tabreed Mahal, we bring professional expertise and same-day service to keep your home running smoothly. AC, fridge, or washing machine — we fix it all.",
+      "At Al Madina Tabreed, we bring professional expertise and same-day service to keep your home running smoothly. AC, fridge, or washing machine — we fix it all.",
     btnText: "Get A Quote",
   },
   // Add more slides as needed

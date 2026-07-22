@@ -14,7 +14,7 @@ export default function Header1() {
             <div className="top-bar-content">
               <div className="inner">
                 <span className="location content">
-                 Hatim altai, Ar Rawdah, Riyadh 13213, Saudi Arabia
+                 Prince Majed Bin Abdulaziz Rd, Ar Rayyan, Riyadh 14214, Saudi Arabia
                 </span>
                 {/* <span className="envelope content">info@website.com</span> */}
               </div>
