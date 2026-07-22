@@ -104,7 +104,7 @@ export default function Footer1() {
                     alt="Image"
                     width={180}
                     height={50}
-                    src="/assets/logo.png"
+                    src="/assets/madina-logo.png"
                   />
                   <p className="margin-bottom-15">
                     Trusted appliance repair experts

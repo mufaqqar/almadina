@@ -7,10 +7,13 @@ export default function Copyright() {
         <div className="bottom-bar-inner-wrap">
           <ul className="bottom-bar-content">
             <li>
-              <a href=" ">© Al Madina Tabreed {new Date().getFullYear()} </a>|
+              © Al Madina Tabreed {new Date().getFullYear()} |
             </li>
             <li>
-              <a href=""> All Rights Reserved</a>
+              All Rights Reserved |
+            </li>
+            <li>
+              Design by <a href="https://mufaqar.com" target="_blank" rel="noopener noreferrer">Mufaqar</a>
             </li>
           </ul>
           {/* /.bottom-bar-content */}
