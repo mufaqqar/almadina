@@ -6,8 +6,11 @@ import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import React from "react";
 export const metadata = {
-  title: "Contact - Al Madina Tabreed",
+  title: "Contact",
   description: "Contact Al Madina Tabreed for expert AC repair, refrigerator repair, and washing machine repair services in Riyadh, Saudi Arabia. Get a free quote today.",
+  alternates: {
+    canonical: "/contact",
+  },
 };
 export default function page() {
   return (

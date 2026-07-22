@@ -9,8 +9,11 @@ import Header1 from "@/components/headers/Header1";
 
 import React from "react";
 export const metadata = {
-  title: "FAQ - Al Madina Tabreed",
+  title: "FAQ",
   description: "Frequently asked questions about AC repair, refrigerator repair, and washing machine repair services in Riyadh. Get answers to common appliance repair questions.",
+  alternates: {
+    canonical: "/faq",
+  },
 };
 export default function page() {
   return (

@@ -5,8 +5,11 @@ import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import React from "react";
 export const metadata = {
-  title: "Blog - Al Madina Tabreed",
+  title: "Blog",
   description: "Read expert tips and guides on AC repair, refrigerator repair, and washing machine repair in Riyadh from Al Madina Tabreed.",
+  alternates: {
+    canonical: "/blog",
+  },
 };
 export default function page() {
   return (

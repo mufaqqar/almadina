@@ -15,6 +15,9 @@ import Works from "@/components/homes/home-1/Works";
 export const metadata = {
   title: "Al Madina Tabreed",
   description: "Al Madina Tabreed offers expert AC repair, refrigerator repair, and automatic washing machine repair services in Riyadh, Saudi Arabia. Fast, reliable, and affordable appliance repair.",
+  alternates: {
+    canonical: "/",
+  },
 };
 export default function Home() {
   return (

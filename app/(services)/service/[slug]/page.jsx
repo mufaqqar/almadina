@@ -16,8 +16,11 @@ export async function generateMetadata({ params }) {
   const service = services.find((s) => s.slug === slug);
   if (!service) return { title: "Not Found" };
   return {
-    title: `${service.title} - Al Madina Tabreed`,
+    title: service.title,
     description: service.description,
+    alternates: {
+      canonical: `/service/${slug}`,
+    },
   };
 }
 

@@ -9,8 +9,11 @@ import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import React from "react";
 export const metadata = {
-   title: "About Us - Al Madina Tabreed",
+   title: "About Us",
   description: "Al Madina Tabreed is a trusted appliance repair company in Riyadh, specializing in AC repair, refrigerator repair, and automatic washing machine repair. Learn more about our story.",
+  alternates: {
+    canonical: "/about-us",
+  },
 };
 export default function page() {
   return (

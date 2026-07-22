@@ -7,8 +7,11 @@ import Team from "@/components/team/Team";
 
 import React from "react";
 export const metadata = {
-   title: "Team - Al Madina Tabreed",
+   title: "Team",
   description: "Meet the skilled team behind Al Madina Tabreed. Our experienced technicians specialize in AC, refrigerator, and washing machine repair across Riyadh.",
+  alternates: {
+    canonical: "/team",
+  },
 };
 export default function page() {
   return (

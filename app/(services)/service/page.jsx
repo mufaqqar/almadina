@@ -9,8 +9,11 @@ import Services from "@/components/service/Services";
 
 import React from "react";
 export const metadata = {
-  title: "Services - Al Madina Tabreed",
+  title: "Services",
   description: "Explore our professional repair services in Riyadh: AC repair, refrigerator repair, and automatic washing machine repair. Fast, reliable, and affordable service guaranteed.",
+  alternates: {
+    canonical: "/service",
+  },
 };
 export default function page() {
   return (
