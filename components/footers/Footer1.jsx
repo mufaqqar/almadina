@@ -85,9 +85,9 @@ export default function Footer1() {
                     <div>
                       <span>Our Mail</span>
                     </div>
-                    {/* <a href="mailto:info@warsharepairs.com" title="">
-                      info@warsharepairs.com
-                    </a> */}
+                    <a href="mailto:info@almadinatabreed.com" title="">
+                      info@almadinatabreed.com
+                    </a>
                   </div>
                 </div>
               </div>
@@ -116,11 +116,11 @@ export default function Footer1() {
                   <div className="footer-socials">
                     <div className="inner">
                       <span className="icons">
-                        <a className="active" href="https://www.facebook.com/">
+                        <a className="active" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                           <i className="fa fa-facebook-square" />
                         </a>
-                        <a href="#">
-                          <i className="fa fa-twitter" />
+                        <a href="https://g.page/r/almadinatabreed" target="_blank" rel="noopener noreferrer">
+                          <i className="fa fa-google" />
                         </a>
                       </span>
                     </div>

@@ -57,12 +57,12 @@ export default function Footer2() {
               <div className="textwidget">
                 <Image
                   alt="Image"
-                  src="/assets/img/logo-dark.png"
+                  src="/assets/logo.png"
                   width={180}
                   height={51}
                 />
                 <p className="margin-bottom-15">
-                    Trusted appliance repair experts serving Riyadh with professional AC, fridge, and washing machine repairs
+                   2 Trusted appliance repair experts serving Riyadh with professional AC, fridge, and washing machine repairs
                 </p>
                 <div className="footer-socials">
                   <div className="inner">

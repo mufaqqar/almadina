@@ -24,28 +24,13 @@ export default function Contact() {
               </div>
               <ul className="socical-icon">
                 <li>
-                  <a href="#">
+                  <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                     <i className="fa fa-facebook" />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="fa fa-twitter" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-pinterest-p" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-instagram" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-linkedin" />
+                  <a href="https://g.page/r/almadinatabreed" target="_blank" rel="noopener noreferrer">
+                    <i className="fa fa-google" />
                   </a>
                 </li>
               </ul>

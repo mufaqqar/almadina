@@ -16,24 +16,20 @@ export default function Header1() {
                 <span className="location content">
                  Prince Majed Bin Abdulaziz Rd, Ar Rayyan, Riyadh 14214, Saudi Arabia
                 </span>
-                {/* <span className="envelope content">info@website.com</span> */}
+                 <span className="envelope content">
+                   <a href="mailto:info@almadinatabreed.com" style={{color:'#fff'}}>info@almadinatabreed.com</a>
+                 </span>
               </div>
             </div>
             {/* /.top-bar-content */}
             <div className="top-bar-socials">
               <div className="inner">
                 <span className="icons">
-                  <a href="https://www.facebook.com/#">
+                  <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                     <i className="fa fa-facebook" />
                   </a>
-                  <a href="#">
-                    <i className="fa fa-twitter" />
-                  </a>
-                  <a href="#">
-                    <i className="fa fa-google-plus" />
-                  </a>
-                  <a href="https://www.instagram.com/#">
-                    <i className="fa fa-instagram" />
+                  <a href="https://g.page/r/almadinatabreed" target="_blank" rel="noopener noreferrer">
+                    <i className="fa fa-google" />
                   </a>
                 </span>
               </div>
@@ -71,10 +67,9 @@ export default function Header1() {
             </nav>
             {/* /#main-nav */}
             <div id="header-get-a-quote">
-              <Link href={`/contact`} className="header-get-a-quote-icon">
+              <a href="https://wa.me/966535251023" target="_blank" rel="noopener noreferrer" className="header-get-a-quote-icon">
                 Get A Quote
-              </Link>
-              {/* <button class="header-get-a-quote-icon" >Get a Quote</button> */}
+              </a>
             </div>
             {/* /#header-get-a-quote */}
           </div>

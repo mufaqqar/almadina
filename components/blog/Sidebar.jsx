@@ -94,7 +94,7 @@ export default function Sidebar() {
             <div className="widget-banner-inner-wrap">
               <h5 className="your-headline-here">Need Appliance Repair?</h5>
               <div className="btn your-headline-here">
-                <Link href={`/contact`}>Get A Quote</Link>
+                <a href="https://wa.me/966535251023" target="_blank" rel="noopener noreferrer">Get A Quote</a>
               </div>
             </div>
             {/* /.header-banner-inner-wrap */}

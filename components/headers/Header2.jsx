@@ -44,10 +44,9 @@ export default function Header2() {
               </div>
             </div>
             <div id="header-get-a-quote">
-              <Link href={`/contact`} className="header-get-a-quote-icon">
+              <a href="https://wa.me/966535251023" target="_blank" rel="noopener noreferrer" className="header-get-a-quote-icon">
                 Get A Quote
-              </Link>
-              {/* <button class="header-get-a-quote-icon" >Get a Quote</button> */}
+              </a>
             </div>
             {/* /#header-get-a-quote */}
           </div>

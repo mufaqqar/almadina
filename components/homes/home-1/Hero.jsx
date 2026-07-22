@@ -73,9 +73,9 @@ export default function Hero() {
                   dangerouslySetInnerHTML={{ __html: slide.description }}
                 ></div>
                 <div className="">
-                  <Link href={`/contact`} className="btn get-a-quote">
+                  <a href="https://wa.me/966535251023" target="_blank" rel="noopener noreferrer" className="btn get-a-quote">
                     {slide.btnText}
-                  </Link>
+                  </a>
                 </div>{" "}
               </div>
             </div>

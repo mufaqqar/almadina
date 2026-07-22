@@ -54,14 +54,11 @@ export default function Team() {
                   </h3>
                   <span>{member.role}</span>
                   <div className="icon-social-team">
-                    <a href="#">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                       <i className="fa fa-facebook" />
                     </a>
-                    <a href="#">
-                      <i className="fa fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fa fa-instagram" />
+                    <a href="https://g.page/r/almadinatabreed" target="_blank" rel="noopener noreferrer">
+                      <i className="fa fa-google" />
                     </a>
                   </div>
                 </div>

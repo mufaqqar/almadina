@@ -127,17 +127,11 @@ export default function BlogDetails() {
                 <div className="post-socials">
                   <span className="title"> Share :</span>
                   <div className="socical-icon">
-                    <a href="#" className="facebook">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="facebook">
                       <i className="fa fa-facebook" />
                     </a>
-                    <a href="#" className="twitter">
-                      <i className="fa fa-twitter" />
-                    </a>
-                    <a href="#" className="linkedin">
-                      <i className="fa fa-google-plus" />
-                    </a>
-                    <a href="#" className="pinterest">
-                      <i className="fa fa-instagram" />
+                    <a href="https://g.page/r/almadinatabreed" target="_blank" rel="noopener noreferrer" className="google">
+                      <i className="fa fa-google" />
                     </a>
                   </div>
                 </div>
