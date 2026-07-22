@@ -33,7 +33,7 @@ export default function Hero() {
             <div className="img-container ">
               <Image
                alt=""
-                src="/assets/ac-repair.jpg"
+                src="/assets/ac-reapir2.jpg"
                 width={620}
                 height={572}
                 className="rounded-full img-slider rounded-2xl"
