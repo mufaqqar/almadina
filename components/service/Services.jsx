@@ -53,12 +53,12 @@ export default function Services() {
                   <div className={`icon ${service.iconClass}`} />
                   <div className="text-wrap">
                     <h3 className="heading">
-                      <Link href={`/service-detail`}>{service.title}</Link>
+                      <Link href={`/service/${service.slug}`}>{service.title}</Link>
                     </h3>
                     <div className="sep clearfix" />
                     <p className="sub-heading">{service.description}</p>
                   </div>
-                  <Link href={`/service-detail`} className="service-read-more">
+                  <Link href={`/service/${service.slug}`} className="service-read-more">
                     Read More <i className="fa fa-arrow-right" />
                   </Link>
                 </div>

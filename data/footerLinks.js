@@ -4,8 +4,8 @@ export const widgets = [
     title: "Services",
     className: "widget_services",
     links: [
-      { text: "AC Repair", href: "/service-detail" },
-      { text: "Refrigerator Repair", href: "/service-detail" },
+      { text: "AC Repair", href: "/service/ac-repair" },
+      { text: "Refrigerator Repair", href: "/service/refrigerator-repair" },
       { text: "Washing Machine Repair", href: "/service" },
     ],
     spacer: { desktop: 10, mobile: 0, smobile: 50 },
@@ -15,7 +15,7 @@ export const widgets = [
     title: "Useful Links",
     className: "widget_useful-link",
     links: [
-      { text: "About", href: "/service-detail" },
+      { text: "About", href: "/about-us" },
       { text: "Our Services", href: "/service" },
       { text: "Blog", href: "/blog" },
       { text: "Contact", href: "/contact" },

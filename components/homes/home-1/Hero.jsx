@@ -61,7 +61,7 @@ export default function Hero() {
                 />
               </div>
               <div className="content">
-                <div className="text-green font-heading font-weight-500">
+                <div className="text-primary-custom font-heading font-weight-500">
                   <span className="heading-tittle">{slide.captionTitle}</span>
                 </div>
                 <div className="text-black font-heading font-weight-400">

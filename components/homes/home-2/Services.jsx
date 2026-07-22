@@ -50,11 +50,11 @@ export default function Services() {
                     <div className={`icon-service ${service.iconClass}`} />
                     <div>
                       <h3 className={`heading ${service.headingStyle}`}>
-                        <Link href={`/service-detail`}>{service.title}</Link>
+                        <Link href={`/service/${service.slug}`}>{service.title}</Link>
                       </h3>
                       <p className="sub-heading">{service.description}</p>
                       <Link
-                        href={`/service-detail`}
+                        href={`/service/${service.slug}`}
                         className="service-read-more"
                       >
                         Read More <i className="fa fa-arrow-right" />

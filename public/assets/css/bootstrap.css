@@ -9160,8 +9160,8 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 .text-back {
   color: #1F242C !important;
 }
-.text-green{
-  color: #966F33 !important;
+.text-primary-custom{
+  color: #003e81 !important;
 }
 .text-muted {
   color: #636c72 !important;
