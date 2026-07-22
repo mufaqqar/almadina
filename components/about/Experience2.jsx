@@ -1,6 +1,9 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
+import { useLanguage } from "../common/LanguageContext";
 export default function Experience2() {
+  const { t } = useLanguage();
   return (
     <div className="row-request style-2">
       <div className="col-xl-6 col-lg-12">
@@ -31,12 +34,8 @@ export default function Experience2() {
               className="themesflat-headings style-1 clearfix wow fadeInUp animated"
               style={{ visibility: "visible", animationName: "fadeInUp" }}
             >
-              <h1 className="heading padding-bottom-10">EXPERIENCED TECHNICIANS</h1>
-              <p className="sub-heading padding-bottom-40">
-                Our skilled technicians have years of experience repairing
-                AC units, refrigerators, and washing machines across Riyadh.
-                We deliver fast, reliable service every time.
-              </p>
+              <h1 className="heading padding-bottom-10">{t("experiencedTechs")}</h1>
+              <p className="sub-heading padding-bottom-40">{t("experienceDesc")}</p>
             </div>
             <div
               className="service-inner-text style-3 wow fadeInUp animated"
@@ -45,12 +44,9 @@ export default function Experience2() {
               <div className="icon zingbox-icon-Solar-power-light" />
               <div className="text-wrap">
                 <h3 className="heading">
-                  <Link href={`/service-detail`}>AC Repair</Link>
+                  <Link href={`/service-detail`}>{t("acTitle")}</Link>
                 </h3>
-                <p className="sub-heading">
-                  Professional air conditioning repair and maintenance
-                  services in Riyadh for all major brands.
-                </p>
+                <p className="sub-heading">{t("acDesc")}</p>
               </div>
             </div>
             <div
@@ -60,12 +56,9 @@ export default function Experience2() {
               <div className="icon zingbox-icon-Solar-power-light" />
               <div className="text-wrap">
                 <h3 className="heading">
-                  <Link href={`/service-detail`}>Refrigerator Repair</Link>
+                  <Link href={`/service-detail`}>{t("fridgeTitle")}</Link>
                 </h3>
-                <p className="sub-heading">
-                  Expert refrigerator repair services with fast diagnosis
-                  and reliable solutions.
-                </p>
+                <p className="sub-heading">{t("fridgeDesc")}</p>
               </div>
             </div>
           </div>

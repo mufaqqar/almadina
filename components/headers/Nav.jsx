@@ -2,9 +2,11 @@
 import { menuItems } from "@/data/menu";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useLanguage } from "@/components/common/LanguageContext";
 import React from "react";
 
 export default function Nav() {
+  const { t } = useLanguage();
   const pathname = usePathname();
   const checkActiveLink = (item) => {
     let isactive = false;
@@ -38,7 +40,7 @@ export default function Nav() {
               checkActiveLink(item) ? "active" : ""
             } `}
           >
-            {item.title}
+            {t(item.titleKey)}
           </Link>
           {item.subMenu && (
             <ul className="sub-menu">
@@ -48,7 +50,7 @@ export default function Nav() {
                     href={subItem.href}
                     className={checkActiveLink(subItem) ? "active" : ""}
                   >
-                    {subItem.title}
+                    {t(subItem.titleKey)}
                   </Link>
                 </li>
               ))}

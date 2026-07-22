@@ -2,9 +2,11 @@
 import { menuItems } from "@/data/menu";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useLanguage } from "@/components/common/LanguageContext";
 import React from "react";
 
 export default function MobileNav() {
+  const { t } = useLanguage();
   const handleFaqOpen = (activeMenu) => {
     const mobileMenu = document.querySelector("#main-nav-mobi .menu");
     const menuItemGroups = document.querySelectorAll(
@@ -65,14 +67,14 @@ export default function MobileNav() {
                   checkActiveLink(item) ? "active" : ""
                 } `}
               >
-                {item.title}
+                {t(item.titleKey)}
               </a>
             ) : (
               <Link
                 href={item.href}
                 className={` ${checkActiveLink(item) ? "active" : ""} `}
               >
-                {item.title}
+                {t(item.titleKey)}
               </Link>
             )}
             {item.subMenu ? (
@@ -91,7 +93,7 @@ export default function MobileNav() {
                       href={subItem.href}
                       className={checkActiveLink(subItem) ? "active" : ""}
                     >
-                      {subItem.title}
+                      {t(subItem.titleKey)}
                     </Link>
                   </li>
                 ))}

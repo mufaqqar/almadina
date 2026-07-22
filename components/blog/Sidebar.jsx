@@ -1,9 +1,12 @@
+"use client";
 import { blogPosts } from "@/data/blogs";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { useLanguage } from "../common/LanguageContext";
 
 export default function Sidebar() {
+  const { t } = useLanguage();
   return (
     <div id="sidebar">
       <div
@@ -15,49 +18,47 @@ export default function Sidebar() {
       <div id="inner-sidebar" className="inner-content-wrap">
         <div className="widget widget_search">
           <h3 className="widget-title">
-            <span>Search</span>
+            <span>{t("search") || "Search"}</span>
           </h3>
           <form action="#" role="search" className="search-form style-1">
             <input
               type="search"
               className="search-field"
-              placeholder="Search here"
+              placeholder={t("searchHere") || "Search here"}
               defaultValue=""
               name="s"
               title="Search for"
             />
             <button className="search-submit" type="submit" title="Search">
-              Search
+              {t("search") || "Search"}
             </button>
           </form>
         </div>
-        {/* /.widget_search */}
         <div className="widget widget_category">
           <h3 className="widget-title">
-            <span>Category</span>
+            <span>{t("categories")}</span>
           </h3>
             <ul className="list-category">
             <li>
-              <Link href={`/blog`}>AC Repair</Link>
+              <Link href={`/blog`}>{t("acTitle")}</Link>
             </li>
             <li>
-              <Link href={`/blog`}>Refrigerator Repair</Link>
+              <Link href={`/blog`}>{t("fridgeTitle")}</Link>
             </li>
             <li>
-              <Link href={`/blog`}>Washing Machine Repair</Link>
+              <Link href={`/blog`}>{t("washerTitle")}</Link>
             </li>
             <li>
-              <Link href={`/blog`}>Maintenance Tips</Link>
+              <Link href={`/blog`}>{t("maintenanceTips") || "Maintenance Tips"}</Link>
             </li>
             <li>
-              <Link href={`/blog`}>Appliance Care</Link>
+              <Link href={`/blog`}>{t("applianceCare") || "Appliance Care"}</Link>
             </li>
           </ul>
         </div>
-        {/* /.widget_category */}
         <div className="widget widget_recent_news">
           <h3 className="widget-title">
-            <span>Recent News</span>
+            <span>{t("recentPosts")}</span>
           </h3>
           <ul className="lastest-posts">
             {blogPosts.map((post) => (
@@ -68,7 +69,6 @@ export default function Sidebar() {
                     src={post.imageSrc}
                     width={75}
                     height={70}
-                   
                   />
                   {post.hasIcon && (
                     <div className="elm-link">
@@ -88,20 +88,16 @@ export default function Sidebar() {
             ))}
           </ul>
         </div>
-        {/* /.widget_recent_news */}
         <div id="widget-banner" className="widget-banner clearfix">
           <div id="widget-banner-inner" className="container clearfix">
             <div className="widget-banner-inner-wrap">
-              <h5 className="your-headline-here">Need Appliance Repair?</h5>
+              <h5 className="your-headline-here">{t("needApplianceRepair") || "Need Appliance Repair?"}</h5>
               <div className="btn your-headline-here">
-                <a href="https://wa.me/966535251023" target="_blank" rel="noopener noreferrer">Get A Quote</a>
+                <a href="https://wa.me/966535251023" target="_blank" rel="noopener noreferrer">{t("getAQuote")}</a>
               </div>
             </div>
-            {/* /.header-banner-inner-wrap */}
           </div>
-          {/* /widget-banner-inner */}
         </div>
-        {/* /.widget_your-headline-here */}
       </div>
     </div>
   );

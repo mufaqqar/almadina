@@ -1,6 +1,9 @@
+"use client";
 import React from "react";
+import { useLanguage } from "@/components/common/LanguageContext";
 
 export default function Copyright() {
+  const { t } = useLanguage();
   return (
     <div id="bottom" className="bottom-style-2">
       <div id="bottom-bar-inner" className="container">
@@ -10,10 +13,10 @@ export default function Copyright() {
               © Al Madina Tabreed {new Date().getFullYear()} |
             </li>
             <li>
-              All Rights Reserved |
+              {t("allRights")} |
             </li>
             <li>
-              Design by <a href="https://mufaqar.com" target="_blank" rel="noopener noreferrer">Mufaqar</a>
+              {t("designBy")}<a href="https://mufaqar.com" target="_blank" rel="noopener noreferrer">Mufaqar</a>
             </li>
           </ul>
           {/* /.bottom-bar-content */}

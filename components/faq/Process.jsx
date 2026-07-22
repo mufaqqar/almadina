@@ -1,7 +1,10 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import { workItems } from "@/data/process";
+import { useLanguage } from "../common/LanguageContext";
 export default function Process() {
+  const { t } = useLanguage();
   return (
     <div className="row-work">
       <Image
@@ -21,12 +24,8 @@ export default function Process() {
               data-smobile={60}
             />
             <div className="themesflat-headings style-2 text-center clearfix">
-              <h1 className="heading">OUR WORK PROCESS</h1>
-              <p className="sub-heading">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed
-              </p>
+              <h1 className="heading">{t("ourWorkProcess") || "OUR WORK PROCESS"}</h1>
+              <p className="sub-heading">{t("aboutText1")}</p>
             </div>
             <div
               className="themesflat-spacer clearfix"
@@ -46,16 +45,9 @@ export default function Process() {
                     />
                     <div className="text-wrap">
                       <h6 className="heading">{item.heading}</h6>
-                      <p className="sub-heading">
-                        {item.subHeading.split("\n").map((line, index) => (
-                          <span key={index}>
-                            {line}
-                            <br />
-                          </span>
-                        ))}
-                      </p>
+                      <p className="sub-heading">{item.subHeading}</p>
                       <a href="#" className="btn-read-more">
-                        Read More <i className="fa fa-arrow-right" />
+                        {t("readMore")} <i className="fa fa-arrow-right" />
                       </a>
                     </div>
                   </div>
@@ -71,9 +63,7 @@ export default function Process() {
               />
             </div>
           </div>
-          {/* /.col-md-12 */}
         </div>
-        {/* /.row */}
       </div>
     </div>
   );

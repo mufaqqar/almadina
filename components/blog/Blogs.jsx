@@ -1,9 +1,12 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Sidebar from "./Sidebar";
 import { blogPosts2 } from "@/data/blogs";
+import { useLanguage } from "../common/LanguageContext";
 export default function Blogs() {
+  const { t } = useLanguage();
   return (
     <div id="content-wrap" className="container">
       <div id="site-content" className="site-content clearfix">
@@ -31,7 +34,6 @@ export default function Blogs() {
                   />
                 </Link>
               </div>
-              {/* /.post-media */}
               <div className="post-content-wrap clearfix">
                 <div className="post-meta">
                   <div className="post-meta-content">
@@ -50,27 +52,22 @@ export default function Blogs() {
                     </div>
                   </div>
                 </div>
-                {/* /.post-meta */}
                 <h6 className="post-title">
                   <span className="post-title-inner">
                     <Link href={`/blog-detail`}>{post.title}</Link>
                   </span>
                 </h6>
-                {/* /.post-title */}
                 <div className="post-content">
                   <p>{post.content}</p>
                 </div>
-                {/* /.post-excerpt */}
                 <div className="post-read-more">
                   <div className="post-link">
-                    <Link href={`/blog-detail`}>READ MORE</Link>
+                    <Link href={`/blog-detail`}>{t("readMoreBtn")}</Link>
                   </div>
                 </div>
               </div>
-              {/* /.post-content-wrap */}
             </article>
           ))}
-          {/* /.hentry */}
           <div className="themesflat-pagination clearfix">
             <ul>
               <li>
@@ -111,11 +108,8 @@ export default function Blogs() {
             </ul>
           </div>
         </div>
-        {/* /#inner-content */}
       </div>
-      {/* /#site-content */}
       <Sidebar />
-      {/* /#sidebar */}
     </div>
   );
 }

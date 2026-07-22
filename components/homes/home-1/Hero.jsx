@@ -3,29 +3,9 @@ import React from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper/modules";
-import Link from "next/link";
-const slides = [
-  {
-    imgSrc: "/assets/ac-repair.jpg",
-    imgAlt: "Image ",
-    captionTitle: "Fast. Reliable. Affordable.",
-    captionSubtitle: "Expert appliance repair services across Riyadh.",
-    description:
-      "Al Madina Tabreed is a trusted name in AC repair, refrigerator repair, and automatic washing machine repair in Riyadh. We provide fast, reliable, and affordable service for all major brands.",
-    btnText: "Get A Quote",
-  },
-  {
-    imgSrc: "/assets/ac-repair.jpg",
-    imgAlt: "Image ",
-    captionTitle: "Professional Repair, Peace of Mind",
-    captionSubtitle: "Your appliances are in expert hands.",
-    description:
-      "At Al Madina Tabreed, we bring professional expertise and same-day service to keep your home running smoothly. AC, fridge, or washing machine — we fix it all.",
-    btnText: "Get A Quote",
-  },
-  // Add more slides as needed
-];
+import { useLanguage } from "@/components/common/LanguageContext";
 export default function Hero() {
+  const { t } = useLanguage();
   return (
     <div className="swiper-container fullwidthbanner-container hero hero-1 rev_slider">
       <Swiper
@@ -48,50 +28,77 @@ export default function Hero() {
           nextEl: ".snbn22",
         }}
       >
-        {slides.map((slide, index) => (
-          <SwiperSlide className="swiper-slide" key={index}>
-            <div className="container">
-              <div className="img-container ">
-                <Image
-                 alt={slide.imgAlt}
-                  src={slide.imgSrc}
-                  width={620}
-                  height={572}
-                  className="rounded-full img-slider rounded-2xl"
-                />
-              </div>
-              <div className="content">
-                <div className="text-primary-custom font-heading font-weight-500">
-                  <span className="heading-tittle">{slide.captionTitle}</span>
-                </div>
-                <div className="text-black font-heading font-weight-400">
-                  <span className="tittle1">{slide.captionSubtitle}</span>
-                </div>
-                <div className="line" />
-                <div
-                  className="text-black font-heading font-weight-400 description"
-                  dangerouslySetInnerHTML={{ __html: slide.description }}
-                ></div>
-                <div className="">
-                  <a href="https://wa.me/966535251023" target="_blank" rel="noopener noreferrer" className="btn get-a-quote">
-                    {slide.btnText}
-                  </a>
-                </div>{" "}
-              </div>
+        <SwiperSlide className="swiper-slide">
+          <div className="container">
+            <div className="img-container ">
+              <Image
+               alt=""
+                src="/assets/ac-repair.jpg"
+                width={620}
+                height={572}
+                className="rounded-full img-slider rounded-2xl"
+              />
             </div>
-          </SwiperSlide>
-        ))}
+            <div className="content">
+              <div className="text-primary-custom font-heading font-weight-500">
+                <span className="heading-tittle">{t("slide1Title")}</span>
+              </div>
+              <div className="text-black font-heading font-weight-400">
+                <span className="tittle1">{t("slide1Subtitle")}</span>
+              </div>
+              <div className="line" />
+              <div
+                className="text-black font-heading font-weight-400 description"
+                dangerouslySetInnerHTML={{ __html: t("slide1Desc") }}
+              ></div>
+              <div className="">
+                <a href="https://wa.me/966535251023" target="_blank" rel="noopener noreferrer" className="btn get-a-quote">
+                  {t("getAQuote")}
+                </a>
+              </div>{" "}
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <div className="container">
+            <div className="img-container ">
+              <Image
+               alt=""
+                src="/assets/ac-repair.jpg"
+                width={620}
+                height={572}
+                className="rounded-full img-slider rounded-2xl"
+              />
+            </div>
+            <div className="content">
+              <div className="text-primary-custom font-heading font-weight-500">
+                <span className="heading-tittle">{t("slide2Title")}</span>
+              </div>
+              <div className="text-black font-heading font-weight-400">
+                <span className="tittle1">{t("slide2Subtitle")}</span>
+              </div>
+              <div className="line" />
+              <div
+                className="text-black font-heading font-weight-400 description"
+                dangerouslySetInnerHTML={{ __html: t("slide2Desc") }}
+              ></div>
+              <div className="">
+                <a href="https://wa.me/966535251023" target="_blank" rel="noopener noreferrer" className="btn get-a-quote">
+                  {t("getAQuote")}
+                </a>
+              </div>{" "}
+            </div>
+          </div>
+        </SwiperSlide>
       </Swiper>
       <div className="tp-bullets custom horizontal nav-pos-hor-center nav-pos-ver-bottom nav-dir-horizontal noSwipe spd22"></div>
 
-      {/* Add Navigation if needed */}
       <div
         className="tp-leftarrow tparrows custom  noSwipe snbp22"
         style={{
           top: "50%",
           transform: "matrix(1, 0, 0, 1, 120, -30)",
           left: 0,
-
           opacity: 1,
         }}
       />
@@ -101,7 +108,6 @@ export default function Hero() {
           top: "50%",
           transform: "matrix(1, 0, 0, 1, -180, -30)",
           left: "100%",
-
           opacity: 1,
         }}
       />

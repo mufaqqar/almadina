@@ -3,8 +3,16 @@
 import { testimonials } from "@/data/testimonials";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
+import { useLanguage } from "@/components/common/LanguageContext";
 import Image from "next/image";
+const roleKeyMap = {
+  "Satisfied Customer": "happyCustomers",
+  "Happy Client": "happyCustomers",
+  "Regular Customer": "happyCustomers",
+  "Loyal Customer": "happyCustomers",
+};
 export default function Testimonials() {
+  const { t } = useLanguage();
   return (
     <div className="row-question">
       <div className="container">
@@ -19,9 +27,9 @@ export default function Testimonials() {
           </div>
           <div className="col-lg-6 col-md-8">
             <div className="themesflat-headings style-2 question wow fadeInUp clearfix">
-              <h1 className="heading">Real stories from our satisfied customers</h1>
+              <h1 className="heading">{t("testimonialsTitle")}</h1>
               <p className="sub-heading">
-               Hear genuine experiences from our valued clients who trusted us and achieved outstanding results.
+                {t("testimonialsSub")}
               </p>
             </div>
           </div>
@@ -87,7 +95,7 @@ export default function Testimonials() {
                           </a>
                         </div>
                         <div>
-                          <span>{testimonial.authorRole}</span>
+                          <span>{t(roleKeyMap[testimonial.authorRole] || "happyCustomers")}</span>
                         </div>
                       </div>
                     </div>

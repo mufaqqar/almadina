@@ -1294,6 +1294,13 @@ body.page #main-content {
   z-index: 10;
 }
 
+
+.rtl #site-header #header-get-a-quote {
+
+  left: 15px;
+  right: auto;
+}
+
 .header-phone {
   position: absolute;
   right: 260px;

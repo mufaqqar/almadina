@@ -1,6 +1,9 @@
+"use client";
 import React from "react";
+import { useLanguage } from "../common/LanguageContext";
 
 export default function Contact() {
+  const { t } = useLanguage();
   return (
     <>
       <div
@@ -15,12 +18,10 @@ export default function Contact() {
             <div className="col-md-4">
               <div className="themesflat-headings contact style-2 wow fadeInUp clearfix">
                 <a className="get-in-touch" href="#">
-                  Get in touch
+                  {t("contactDesc")}
                 </a>
-                <h1 className="heading">WRITE US A MESSAGE</h1>
-                <p className="sub-heading">
-                 Have questions or need assistance? Send us a message and our team will get back to you shortly.
-                </p>
+                <h1 className="heading">{t("writeUsAMessage") || "WRITE US A MESSAGE"}</h1>
+                <p className="sub-heading">{t("contactDesc")}</p>
               </div>
               <ul className="socical-icon">
                 <li>
@@ -38,19 +39,19 @@ export default function Contact() {
             <div className="col-md-8">
               <div className="form-submit">
                 <div className="infor wow fadeInUp">
-                  <input type="text" placeholder="Full Name" />
-                  <input type="text" placeholder="Phone Number" />
+                  <input type="text" placeholder={t("fullName")} />
+                  <input type="text" placeholder={t("phoneNumber")} />
                 </div>
                 <div className="infor wow fadeInUp">
-                  <input type="text" placeholder="Email Address" />
-                  <input type="text" placeholder="Subject" />
+                  <input type="text" placeholder={t("emailAddress")} />
+                  <input type="text" placeholder={t("subject") || "Subject"} />
                 </div>
                 <div className="message wow fadeInUp">
-                  <input type="text" placeholder="Your Massege" />
+                  <input type="text" placeholder={t("yourMessage") || "Your Massege"} />
                 </div>
                 <div className="send">
                   <button className="message-submit" type="submit">
-                    Send Message
+                    {t("sendMessage") || "Send Message"}
                   </button>
                 </div>
               </div>

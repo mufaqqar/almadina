@@ -2,8 +2,34 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useLanguage } from "@/components/common/LanguageContext";
+
+const slugTitleMap = {
+  "ac-repair": "acTitle",
+  "refrigerator-repair": "fridgeTitle",
+  "washing-machine-repair": "washerTitle",
+};
+
+const slugDescMap = {
+  "ac-repair": "acDesc",
+  "refrigerator-repair": "fridgeDesc",
+  "washing-machine-repair": "washerDesc",
+};
+
+const slugLongMap = {
+  "ac-repair": "acLong",
+  "refrigerator-repair": "fridgeLong",
+  "washing-machine-repair": "washerLong",
+};
+
+const slugFeatMap = {
+  "ac-repair": ["acFeat1", "acFeat2", "acFeat3", "acFeat4", "acFeat5", "acFeat6", "acFeat7"],
+  "refrigerator-repair": ["fridgeFeat1", "fridgeFeat2", "fridgeFeat3", "fridgeFeat4", "fridgeFeat5", "fridgeFeat6", "fridgeFeat7"],
+  "washing-machine-repair": ["washerFeat1", "washerFeat2", "washerFeat3", "washerFeat4", "washerFeat5", "washerFeat6", "washerFeat7"],
+};
 
 export default function ServiceSingle({ service }) {
+  const { t } = useLanguage();
   const [formData, setFormData] = useState({ name: "", phone: "", message: "" });
   const [submitted, setSubmitted] = useState(false);
 
@@ -20,36 +46,40 @@ export default function ServiceSingle({ service }) {
     setFormData({ name: "", phone: "", message: "" });
   };
 
+  const slug = service.slug;
+  const featKeys = slugFeatMap[slug] || [];
+  const features = featKeys.length ? featKeys.map((k) => t(k)) : service.features;
+
   return (
     <div id="content-wrap" className="container">
       <div id="sidebar">
         <div id="inner-sidebar" className="inner-content-wrap">
           <div className="widget widget_category style-2 widget no-sep">
             <h3 className="widget-title">
-              <span>Our Services</span>
+              <span>{t("ourServices")}</span>
             </h3>
             <ul className="list-category">
               <li>
-                <Link href={`/service/ac-repair`}>AC Repair</Link>
+                <Link href={`/service/ac-repair`}>{t("acTitle")}</Link>
               </li>
               <li>
-                <Link href={`/service/refrigerator-repair`}>Refrigerator Repair</Link>
+                <Link href={`/service/refrigerator-repair`}>{t("fridgeTitle")}</Link>
               </li>
               <li>
-                <Link href={`/service/washing-machine-repair`}>Washing Machine Repair</Link>
+                <Link href={`/service/washing-machine-repair`}>{t("washerTitle")}</Link>
               </li>
             </ul>
           </div>
           <div className="widget widget_get-a-quote">
             <h3 className="widget-title">
-              <span>Request Service</span>
+              <span>{t("requestAQuote")}</span>
             </h3>
             <form onSubmit={handleSubmit}>
               <div className="name">
                 <input
                   name="name"
                   type="text"
-                  placeholder="Your Name"
+                  placeholder={t("yourName")}
                   value={formData.name}
                   onChange={handleChange}
                   required
@@ -59,7 +89,7 @@ export default function ServiceSingle({ service }) {
                 <input
                   name="phone"
                   type="tel"
-                  placeholder="Phone Number"
+                  placeholder={t("phoneNumber")}
                   value={formData.phone}
                   onChange={handleChange}
                   required
@@ -68,7 +98,7 @@ export default function ServiceSingle({ service }) {
               <div className="message">
                 <textarea
                   name="message"
-                  placeholder="Describe your issue"
+                  placeholder={t("yourComment")}
                   value={formData.message}
                   onChange={handleChange}
                   rows={3}
@@ -76,11 +106,11 @@ export default function ServiceSingle({ service }) {
                 />
               </div>
               <button type="submit" className="btn-send">
-                Send via WhatsApp
+                {t("submitRequest")}
               </button>
               {submitted && (
                 <p style={{ color: "rgb(52, 168, 83)", marginTop: 10, fontSize: 13 }}>
-                  Thank you! A WhatsApp window will open to complete your request.
+                  {t("subscribeSuccess")}
                 </p>
               )}
             </form>
@@ -88,11 +118,11 @@ export default function ServiceSingle({ service }) {
           <div className="themesflat-spacer clearfix" data-desktop={0} data-mobile={60} data-smobile={60} />
           <div className="widget">
             <h3 className="widget-title">
-              <span>Contact Us</span>
+              <span>{t("contact")}</span>
             </h3>
             <div className="textwidget">
-              <p><strong>Phone:</strong><br /><a href="tel:+966583086233">+966 58 308 6233</a></p>
-              <p><strong>Address:</strong><br />Prince Majed Bin Abdulaziz Rd,<br />Ar Rayyan, Riyadh 14214</p>
+              <p><strong>{t("callUs")}:</strong><br /><a href="tel:+966583086233">+966 58 308 6233</a></p>
+              <p><strong>{t("ourAddress")}:</strong><br />{t("address")}</p>
             </div>
           </div>
         </div>
@@ -112,21 +142,21 @@ export default function ServiceSingle({ service }) {
             <div className="post-content-wrap clearfix">
               <h1 className="post-title-detail style-2">
                 <span className="post-title-inner">
-                  <span>{service.title}</span>
+                  <span>{t(slugTitleMap[slug] || service.title)}</span>
                 </span>
               </h1>
               <div className="post-content margin-bottom-51">
-                <p>{service.longDescription}</p>
+                <p>{t(slugLongMap[slug] || service.longDescription)}</p>
               </div>
 
               <h3 className="post-title-service-detail">
                 <span className="post-title-inner">
-                  What We Offer
+                  {t("features")}
                 </span>
               </h3>
               <div className="post-content margin-bottom-32">
                 <ul>
-                  {service.features.map((feature, i) => (
+                  {features.map((feature, i) => (
                     <li key={i} style={{ marginBottom: 8 }}>
                       <span>
                         <i className="fa fa-check" style={{ color: "#28a745", marginRight: 8 }} />
@@ -139,16 +169,11 @@ export default function ServiceSingle({ service }) {
 
               <h3 className="post-title-service-detail">
                 <span className="post-title-inner">
-                  Why Choose Al Madina Tabreed?
+                  {t("whyChooseUs") || "Why Choose Al Madina Tabreed?"}
                 </span>
               </h3>
               <div className="post-content margin-bottom-40">
-                <p>
-                  We are a trusted appliance repair company serving Riyadh with years of experience,
-                  certified technicians, and a commitment to customer satisfaction. All our work is
-                  backed by a service warranty, and we offer transparent pricing with free estimates.
-                  Whether you need emergency repair or scheduled maintenance, we are here to help.
-                </p>
+                <p>{t("aboutText2")}</p>
               </div>
 
               <div className="row">
@@ -161,7 +186,7 @@ export default function ServiceSingle({ service }) {
                   />
                   <div className="text-center">
                     <a href="https://wa.me/966535251023" target="_blank" rel="noopener noreferrer" className="btn get-a-quote">
-                      Book a Service
+                      {t("getAQuote")}
                     </a>
                   </div>
                   <div

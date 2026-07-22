@@ -1,6 +1,9 @@
+"use client";
 import React from "react";
+import { useLanguage } from "@/components/common/LanguageContext";
 
 export default function Copyright2() {
+  const { t } = useLanguage();
   return (
     <div id="bottom" className="clearfix has-spacer">
       <div id="bottom-bar-inner" className="container">
@@ -11,17 +14,17 @@ export default function Copyright2() {
                 © Al Madina Tabreed
               </a>
               <span className="text">
-                {new Date().getFullYear()} | All Rights Reserved{" "}
+                {new Date().getFullYear()} | {t("allRights")} {" "}
               </span>
             </div>
           </div>
           {/* /.bottom-bar-content */}
           <div className="bottom-bar-menu">
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Sitemap</a>
+            <a href="#">{t("privacy")}</a>
+            <a href="#">{t("terms")}</a>
+            <a href="#">{t("sitemap")}</a>
             <a className="padding-right-0" href="#">
-              Help
+              {t("help")}
             </a>
           </div>
           {/* /.bottom-bar-menu */}

@@ -1,6 +1,8 @@
+"use client";
 import React from "react";
-import Image from "next/image";
+import { useLanguage } from "@/components/common/LanguageContext";
 export default function Contact() {
+  const { t } = useLanguage();
   return (
     <div className="row-request ">
     <div className="col-md-6">
@@ -16,14 +18,14 @@ export default function Contact() {
       ></iframe>
       </div>
        </div>
- 
+
       <div className="container-fluid">
         <div className="row-request-inner">
           <div className="container">
             <div className="row-request-right wow fadeInUp">
               <div className="ok">
                 <div className="row">
-                  <h1 className="heading-request">REQUEST A QUOTE</h1>
+                  <h1 className="heading-request">{t("requestAQuote")}</h1>
                 </div>
                 <div className="row-request-right-inner">
                   <div className="request-right-inner-left">
@@ -31,34 +33,34 @@ export default function Contact() {
                       <input
                         className="text"
                         type="text"
-                        placeholder="Full Name"
+                        placeholder={t("fullName")}
                       />
                     </div>
                     <div>
                       <input
                         className="text"
                         type="text"
-                        placeholder="Email Address"
+                        placeholder={t("emailAddress")}
                       />
                     </div>
                     <div className="tittle-select">
-                      <span>Service type?</span>
+                      <span>{t("serviceType")}</span>
                     </div>
                     <div>
                       <select className="select">
-                        <option value={0}>AC Repair</option>
-                        <option value={1}>Refrigerator Repair</option>
-                        <option value={2}>Washing Machine Repair</option>
+                        <option value={0}>{t("acRepair")}</option>
+                        <option value={1}>{t("refrigeratorRepair")}</option>
+                        <option value={2}>{t("washingMachineRepair")}</option>
                       </select>
                     </div>
                     <div className="tittle-select">
-                      <span>Preferred time?</span>
+                      <span>{t("preferredTime")}</span>
                     </div>
                     <div>
                       <select className="select bottom-select">
-                        <option value={0}>Morning (9AM-12PM)</option>
-                        <option value={1}>Afternoon (12PM-4PM)</option>
-                        <option value={2}>Evening (4PM-8PM)</option>
+                        <option value={0}>{t("morning")}</option>
+                        <option value={1}>{t("afternoon")}</option>
+                        <option value={2}>{t("evening")}</option>
                       </select>
                     </div>
                   </div>
@@ -67,34 +69,34 @@ export default function Contact() {
                       <input
                         className="text"
                         type="text"
-                        placeholder="Phone Number"
+                        placeholder={t("phoneNumber")}
                       />
                     </div>
                     <div>
                       <select className="select">
-                        <option value={0}>Choose service</option>
-                        <option value={1}>AC Repair</option>
-                        <option value={2}>Refrigerator Repair</option>
+                        <option value={0}>{t("chooseService")}</option>
+                        <option value={1}>{t("acRepair")}</option>
+                        <option value={2}>{t("refrigeratorRepair")}</option>
                       </select>
                     </div>
                     <div className="tittle-select">
-                      <span>Urgency level?</span>
+                      <span>{t("urgencyLevel")}</span>
                     </div>
                     <div>
                       <select className="select">
-                        <option value={0}>Within 24 hours</option>
-                        <option value={1}>Within 3 days</option>
-                        <option value={2}>Within a week</option>
+                        <option value={0}>{t("within24h")}</option>
+                        <option value={1}>{t("within3d")}</option>
+                        <option value={2}>{t("withinWeek")}</option>
                       </select>
                     </div>
                     <div className="tittle-select">
-                      <span>Appliance brand?</span>
+                      <span>{t("applianceBrand")}</span>
                     </div>
                     <div>
                       <select className="select">
-                        <option value={0}>Samsung</option>
-                        <option value={1}>LG</option>
-                        <option value={2}>Other</option>
+                        <option value={0}>{t("samsung")}</option>
+                        <option value={1}>{t("lg")}</option>
+                        <option value={2}>{t("other")}</option>
                       </select>
                     </div>
                   </div>
@@ -105,7 +107,7 @@ export default function Contact() {
                       className="submit"
                       type="submit"
                       readOnly
-                      value="Submit Request"
+                      value={t("submitRequest")}
                     />
                   </div>
                 </div>

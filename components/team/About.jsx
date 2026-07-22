@@ -1,8 +1,11 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Counter from "../common/Counter";
+import { useLanguage } from "../common/LanguageContext";
 export default function About() {
+  const { t } = useLanguage();
   return (
     <div className="row-about-us style-3">
       <div className="container">
@@ -37,8 +40,8 @@ export default function About() {
               data-smobile={60}
             />
             <div className="themesflat-headings team-about-us style-2 wow fadeInUp clearfix">
-              <span className="heading-shadown-text">ABOUT US</span>
-              <h1 className="heading">TAKE ALL DATA AND THINK ABOUT IT!</h1>
+              <span className="heading-shadown-text">{t("aboutTitle").toUpperCase()}</span>
+              <h1 className="heading">{t("teamAboutText")}</h1>
             </div>
             <div className="about-us-wrap">
               <div className="box-about-us">
@@ -50,11 +53,9 @@ export default function About() {
                 </div>
                 <div className="content">
                   <div className="title">
-                    <Link href={`/service-detail`}>Flexible Solutions</Link>
+                    <Link href={`/service-detail`}>{t("flexibleSolutions") || "Flexible Solutions"}</Link>
                   </div>
-                  <p>
-                    Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit,
-                  </p>
+                  <p>{t("aboutText1")}</p>
                 </div>
               </div>
               <div className="box-about-us">
@@ -66,11 +67,9 @@ export default function About() {
                 </div>
                 <div className="content">
                   <div className="title">
-                    <Link href={`/service-detail`}>Flexible Solutions</Link>
+                    <Link href={`/service-detail`}>{t("flexibleSolutions") || "Flexible Solutions"}</Link>
                   </div>
-                  <p>
-                    Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit,
-                  </p>
+                  <p>{t("aboutText1")}</p>
                 </div>
               </div>
             </div>

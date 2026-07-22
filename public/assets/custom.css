@@ -36,6 +36,7 @@
   top: -6px;
   left: 1px;
   border-radius: 10%;
+  width: 100%;
 }
 .hero .tittle1 {
   transition: none;

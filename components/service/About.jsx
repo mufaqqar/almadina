@@ -1,10 +1,12 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useLanguage } from "../common/LanguageContext";
 export default function About() {
+  const { t } = useLanguage();
   return (
     <div className="row-about-us style-2  margin-top">
-      {/* <div class="themesflat-spacer clearfix" data-desktop="137" data-mobile="60" data-smobile="60"></div> */}
       <Image
         className="bg-about-us"
         alt="Image"
@@ -18,41 +20,28 @@ export default function About() {
           <div className="col-lg-7 col-md-12">
             <div className="about-us service-about relative">
               <div className="themesflat-headings about-us style-1 clearfix">
-                <span className="heading-shadown-text">ABOUT US</span>
-                <h1 className="heading">
-                  WE ARE QUALIFIED &amp; <br />
-                  PROFESSIONAL
-                </h1>
-                <p className="sub-heading margin-top-6">
-                  The quick, brown fox jumps over a lazy dog. DJs flock by when
-                  MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds
-                  jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick
-                  jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs
-                  jumpy veldt fox. Bright vixens
-                </p>
+                <span className="heading-shadown-text">{t("aboutTitle").toUpperCase()}</span>
+                <h1 className="heading">{t("aboutHeading")}</h1>
+                <p className="sub-heading margin-top-6">{t("aboutText1")}</p>
               </div>
               <div className="about-us-content">
                 <div className="about-us-content-left">
                   <ul>
                     <li>
-                      <Link href={`/service-detail`}>
-                        Malesuada dictum neque
-                      </Link>
+                      <Link href={`/service-detail`}>{t("skilledStaff")}</Link>
                     </li>
                     <li>
-                      <Link href={`/service-detail`}>
-                        Malesuada dictum neque
-                      </Link>
+                      <Link href={`/service-detail`}>{t("reliableDedicated")}</Link>
                     </li>
                   </ul>
                 </div>
                 <div className="about-us-content-right">
                   <ul>
                     <li>
-                      <Link href={`/service-detail`}> Tempor commodo </Link>
+                      <Link href={`/service-detail`}>{t("trainedModern")}</Link>
                     </li>
                     <li>
-                      <Link href={`/service-detail`}> Tempor commodo </Link>
+                      <Link href={`/service-detail`}>{t("focusedQuality")}</Link>
                     </li>
                   </ul>
                 </div>

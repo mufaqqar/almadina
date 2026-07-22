@@ -1,8 +1,19 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import { counterData } from "@/data/facts";
 import Counter from "../common/Counter";
+import { useLanguage } from "../common/LanguageContext";
+
+const counterTitleMap = {
+  "Happy Customers": "happyCustomers",
+  "Project Done": "projectDone",
+  "Awards Win": "awardsWin",
+  "Client Works": "clientWorks",
+};
+
 export default function Facts() {
+  const { t } = useLanguage();
   return (
     <div className="row-counter">
       <Image
@@ -22,9 +33,7 @@ export default function Facts() {
               data-smobile={60}
             />
           </div>
-          {/* /.col-md-12 */}
         </div>
-        {/* /.row */}
         <div className="row">
           {counterData.map((item, index) => (
             <div className="col-md-3" key={index}>
@@ -41,7 +50,7 @@ export default function Facts() {
                           <span className="suffix">{item.suffix}</span>
                         </div>
                         <h3 className={`heading ${item.marginClass}`}>
-                          {item.title}
+                          {t(counterTitleMap[item.title] || item.title)}
                         </h3>
                       </div>
                     </div>
@@ -51,7 +60,6 @@ export default function Facts() {
             </div>
           ))}
         </div>
-        {/* /.row */}
         <div className="row clearfix">
           <div className="col-md-12">
             <div
@@ -61,11 +69,8 @@ export default function Facts() {
               data-smobile={60}
             />
           </div>
-          {/* /.col-md-12 */}
         </div>
-        {/* /.row */}
       </div>
-      {/* /.container */}
     </div>
   );
 }

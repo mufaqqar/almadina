@@ -3,9 +3,11 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import axios from "axios";
+import { useLanguage } from "@/components/common/LanguageContext";
 export default function Footer2() {
   const [success, setSuccess] = useState(true);
   const [showMessage, setShowMessage] = useState(false);
+  const { t } = useLanguage();
 
   const handleShowMessage = () => {
     setShowMessage(true);
@@ -62,7 +64,7 @@ export default function Footer2() {
                   height={51}
                 />
                 <p className="margin-bottom-15">
-                   2 Trusted appliance repair experts serving Riyadh with professional AC, fridge, and washing machine repairs
+                    {t("footerDesc")}
                 </p>
                 <div className="footer-socials">
                   <div className="inner">
@@ -105,7 +107,7 @@ export default function Footer2() {
               data-smobile={50}
             />
             <div className="widget widget_services">
-              <h3 className="widget-title margin-bottom-30">Services</h3>
+              <h3 className="widget-title margin-bottom-30">{t("servicesFooter")}</h3>
               <ul className="service-list">
                 <li>
                   <Link href={`/service-detail`}>Conditions</Link>
@@ -134,7 +136,7 @@ export default function Footer2() {
               data-smobile={50}
             />
             <div className="widget widget_Latest-post">
-              <h3 className="widget-title">Latest Post</h3>
+              <h3 className="widget-title">{t("recentPosts")}</h3>
               <ul className="lastest-posts data-effect clearfix">
                 <li className="clearfix">
                   <div className="thumb">
@@ -185,7 +187,7 @@ export default function Footer2() {
               data-smobile={50}
             />
             <div className="widget widget_email">
-              <h3 className="widget-title margin-bottom-30">Subscribe</h3>
+              <h3 className="widget-title margin-bottom-30">{t("subscribe")}</h3>
               <div
                 className={`tfSubscribeMsg  footer-sub-element ${
                   showMessage ? "active" : ""
@@ -193,10 +195,10 @@ export default function Footer2() {
               >
                 {success ? (
                   <p style={{ color: "rgb(52, 168, 83)" }}>
-                    You have successfully subscribed.
+                    {t("subscribeSuccess")}
                   </p>
                 ) : (
-                  <p style={{ color: "red" }}>Something went wrong</p>
+                  <p style={{ color: "red" }}>{t("subscribeError")}</p>
                 )}
               </div>
               <form onSubmit={sendEmail} className="email-form">
@@ -205,16 +207,16 @@ export default function Footer2() {
                     required
                     name="email"
                     type="text"
-                    placeholder="Email"
+                    placeholder={t("emailPlaceholder")}
                   />
                 </div>
                 <div>
                   <button type="submit" className="btn-subcriber">
-                    Subscribe
+                    {t("subscribeBtn")}
                   </button>
                 </div>
                 <span className="tittle-email">
-                  Get the latest updates via email. Any time you may unsubscribe
+                  {t("subscribeNote")}
                 </span>
               </form>
             </div>

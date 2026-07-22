@@ -1,8 +1,11 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { teamMembers3 } from "@/data/team";
+import { useLanguage } from "../common/LanguageContext";
 export default function Team() {
+  const { t } = useLanguage();
   return (
     <div className="row-our-team">
       <div className="container">
@@ -15,13 +18,9 @@ export default function Team() {
               data-smobile={60}
             />
             <div className="themesflat-headings our-team style-2 text-center wow fadeInUp clearfix relative">
-              <span className="heading-shadown-text style-3">OUR TEAM</span>
-              <h1 className="heading">OUR CREATIVE TEAM</h1>
-              <p className="sub-heading">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                aliquyam erat, sed
-              </p>
+              <span className="heading-shadown-text style-3">{t("teamAbout").toUpperCase()}</span>
+              <h1 className="heading">{t("ourCreativeTeam")}</h1>
+              <p className="sub-heading">{t("teamSubheading")}</p>
             </div>
             <div
               className="themesflat-spacer clearfix"
@@ -30,9 +29,7 @@ export default function Team() {
               data-smobile={35}
             />
           </div>
-          {/* /.col-md-12 */}
         </div>
-        {/* /.row */}
         <div className="row">
           {teamMembers3.map((member) => (
             <div className="col-lg-3 col-md-6" key={member.id}>
@@ -67,7 +64,6 @@ export default function Team() {
           ))}
         </div>
       </div>
-      {/* /.container */}
     </div>
   );
 }

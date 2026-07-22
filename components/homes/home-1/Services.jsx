@@ -1,8 +1,16 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { services } from "@/data/services";
+import { useLanguage } from "@/components/common/LanguageContext";
+const serviceKeyMap = {
+  "ac-repair": { title: "acTitle", desc: "acDesc" },
+  "refrigerator-repair": { title: "fridgeTitle", desc: "fridgeDesc" },
+  "washing-machine-repair": { title: "washerTitle", desc: "washerDesc" },
+};
 export default function Services() {
+  const { t } = useLanguage();
   return (
     <div className="row-service">
       <div className="service">
@@ -16,23 +24,20 @@ export default function Services() {
                 data-smobile={60}
               />
               <div className="themesflat-headings style-1 text-center wow fadeInUp clearfix">
-                <h1 className="heading">SERVICES FOR YOU</h1>
+                <h1 className="heading">{t("servicesForYou")}</h1>
                 <p className="sub-heading">
-                 Professional repair services in Riyadh, from AC 
-                 and refrigerator to
-                  <br />
-                washing machine repair, done with skill and care.
+                  {t("servicesSubheading")}
                 </p>
               </div>
             </div>
-            {/* /.col-md-12 */}
           </div>
-          {/* /.row */}
         </div>
       </div>
       <div id="service-inner" className="container">
         <div className="row">
-          {services.map((service) => (
+          {services.map((service) => {
+            const keys = serviceKeyMap[service.slug] || { title: "acTitle", desc: "acDesc" };
+            return (
             <div className="col-md-4" key={service.id}>
               <div
                 className={`box-service ${service.active ? "active" : ""} wow ${
@@ -52,23 +57,21 @@ export default function Services() {
                   <div className={`icon ${service.iconClass}`} />
                   <div className="text-wrap  ">
                     <h3 className="heading">
-                      <Link href={`/service/${service.slug}`}>{service.title}</Link>
+                      <Link href={`/service/${service.slug}`}>{t(keys.title)}</Link>
                     </h3>
                     <div className="sep clearfix" />
-                    <p className="sub-heading ">{service.description}</p>
+                    <p className="sub-heading ">{t(keys.desc)}</p>
                   </div>
                   <Link href={`/service/${service.slug}`} className="service-read-more">
-                    Read More <i className="fa fa-arrow-right" />
+                    {t("readMore")} <i className="fa fa-arrow-right" />
                   </Link>
                 </div>
               </div>
             </div>
-          ))}
-          {/* /.col-md-4 */}
+            );
+          })}
         </div>
-        {/* /.row */}
       </div>
-      {/* /.container */}
     </div>
   );
 }

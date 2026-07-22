@@ -1,9 +1,11 @@
 import "../public/assets/main.css";
+import "../public/assets/rtl.css";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 import ClientLayout from "@/components/common/ClientLayout";
+import { LanguageProvider } from "@/components/common/LanguageContext";
 
 export const metadata = {
   metadataBase: new URL("https://almedinatabreed.com"),
@@ -94,8 +96,10 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        {children}
-        <ClientLayout />
+        <LanguageProvider>
+          {children}
+          <ClientLayout />
+        </LanguageProvider>
       </body>
     </html>
   );

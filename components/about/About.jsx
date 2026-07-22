@@ -1,9 +1,12 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Counter from "../common/Counter";
+import { useLanguage } from "../common/LanguageContext";
 
 export default function About() {
+  const { t } = useLanguage();
   return (
     <div className="row-aubout-us">
       <div className="container">
@@ -29,13 +32,6 @@ export default function About() {
               width={277}
               height={241}
             />
-            {/* <Image
-              className="img-about-us-2"
-              alt="Image"
-              src="/assets/img/Kitchen Renovation.jpg"
-              width={250}
-              height={400}
-            /> */}
             <div
               className="themesflat-counter wow fadeInUp clearfix animated"
               style={{ visibility: "visible", animationName: "fadeInUp" }}
@@ -50,7 +46,7 @@ export default function About() {
                     <span className="suffix">+</span>
                   </div>
                 </div>
-                <h3 className="heading">Years Of Experiences</h3>
+                <h3 className="heading">{t("aboutHeading")}</h3>
               </div>
             </div>
 
@@ -69,35 +65,32 @@ export default function About() {
               data-smobile={60}
             />
             <div className="themesflat-headings about-us style-2 clearfix">
-              <span className="heading-shadown-text style-2">ABOUT US</span>
+              <span className="heading-shadown-text style-2">{t("aboutTitle").toUpperCase()}</span>
               <h1 className="heading wow fadeInUp">
-                WE ARE QUALIFIED &amp; <br />
-                PROFESSIONAL
+                {t("aboutHeading")}
               </h1>
               <p className="sub-heading wow fadeInDown">
-                Our experienced team specializes in appliance repair,
-                 combining skill and precision to deliver fast,
-                   reliable solutions with exceptional quality.
+                {t("aboutText1")}
               </p>
             </div>
             <div className="about-us-content">
               <div className="about-us-content-left wow fadeInDown">
                 <ul>
                   <li>
-                    <Link href={`/service-detail`}>Skilled technicians</Link>
+                    <Link href={`/service-detail`}>{t("skilledStaff")}</Link>
                   </li>
                   <li>
-                    <Link href={`/service-detail`}>Premium quality service</Link>
+                    <Link href={`/service-detail`}>{t("reliableDedicated")}</Link>
                   </li>
                 </ul>
               </div>
               <div className="about-us-content-right wow fadeInDown">
                 <ul>
                   <li>
-                    <Link href={`/service-detail`}> Fast repair service </Link>
+                    <Link href={`/service-detail`}>{t("trainedModern")}</Link>
                   </li>
                   <li>
-                    <Link href={`/service-detail`}> Durable results</Link>
+                    <Link href={`/service-detail`}>{t("focusedQuality")}</Link>
                   </li>
                 </ul>
               </div>

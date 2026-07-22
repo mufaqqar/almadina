@@ -1,10 +1,12 @@
 "use client";
+import { useLanguage } from "../common/LanguageContext";
 
 export default function CommentForm() {
+  const { t } = useLanguage();
   return (
     <div id="respond" className="comment-respond">
       <h3 id="reply-title" className="comment-reply-title margin-bottom-25">
-        LEAVE A REPLY
+        {t("leaveComment").toUpperCase()}
       </h3>
       <form
         onSubmit={(e) => e.preventDefault()}
@@ -20,7 +22,7 @@ export default function CommentForm() {
               name="author"
               required
               tabIndex={1}
-              placeholder="Your Name"
+              placeholder={t("yourName")}
               defaultValue=""
               size={32}
               aria-required="true"
@@ -33,7 +35,7 @@ export default function CommentForm() {
               className="tb-my-input"
               name="email"
               tabIndex={2}
-              placeholder="Your E-mail"
+              placeholder={t("yourEmail")}
               defaultValue=""
               size={32}
               aria-required="true"
@@ -46,7 +48,7 @@ export default function CommentForm() {
             name="comment"
             rows={8}
             tabIndex={4}
-            placeholder="Enter comment here..."
+            placeholder={t("yourComment")}
             aria-required="true"
             defaultValue={""}
           />
@@ -58,7 +60,7 @@ export default function CommentForm() {
             id="comment-reply"
             className="submit"
             readOnly
-            value="Post Comment"
+            value={t("postComment")}
           />
           <input
             type="hidden"

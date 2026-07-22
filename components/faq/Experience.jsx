@@ -3,8 +3,10 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useLanguage } from "../common/LanguageContext";
 const items = ["Vision", "Mission", "Strategy"];
 export default function Experience() {
+  const { t } = useLanguage();
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <div className="row-experiences-2">
@@ -18,12 +20,9 @@ export default function Experience() {
               data-smobile={60}
             />
             <div className="themesflat-headings style-2 wow fadeInUp clearfix relative">
-              <span className="heading-shadown-text">WORKERS</span>
-              <h1 className="heading">EXPERIENCED WORKERS</h1>
-              <p className="sub-heading">
-                Aliquam faucibus, odio nec commodo aliquam, neque felis placerat
-                dui, a porta ante lectus dapibus est. Aliquam
-              </p>
+              <span className="heading-shadown-text">{t("workers") || "WORKERS"}</span>
+              <h1 className="heading">{t("experiencedTechs")}</h1>
+              <p className="sub-heading">{t("experienceDesc")}</p>
             </div>
             <ul className="tab-title title wow fadeInUp">
               {items.map((item, index) => (
@@ -43,136 +42,96 @@ export default function Experience() {
                 <div className="tab-content">
                   <div className="item-content">
                     <div className="infor">
-                      <span>
-                        Aliquam faucibus, odio nec commodo aliquam, neque felis
-                        placerat dui, a porta ante lectus dapibus est. Aliquam a
-                        bibendum mi, sed condimentum
-                      </span>
+                      <span>{t("aboutText1")}</span>
                     </div>
                     <div className="link">
                       <ul className="first">
                         <li>
                           <i className="zingbox-icon-check" />
-                          <Link href={`/service-detail`}>
-                            Sonsectetur adipisicing elit
-                          </Link>
+                          <Link href={`/service-detail`}>{t("skilledStaff")}</Link>
                         </li>
                         <li>
                           <i className="zingbox-icon-check" />
-                          <Link href={`/service-detail`}>
-                            Exercitation ullamco laboris
-                          </Link>
+                          <Link href={`/service-detail`}>{t("reliableDedicated")}</Link>
                         </li>
                       </ul>
                       <ul>
                         <li>
                           <i className="zingbox-icon-check" />
-                          <Link href={`/service-detail`}>
-                            Eiusmod tempor incididunt
-                          </Link>
+                          <Link href={`/service-detail`}>{t("trainedModern")}</Link>
                         </li>
                         <li>
                           <i className="zingbox-icon-check" />
-                          <Link href={`/service-detail`}>
-                            Aolore magna aliqua
-                          </Link>
+                          <Link href={`/service-detail`}>{t("focusedQuality")}</Link>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
               )}
-              {/* /.tab-content */}{" "}
               {activeIndex == 1 && (
                 <div className="tab-content">
                   <div className="item-content">
                     <div className="infor">
-                      <span>
-                        Aliquam faucibus, odio nec commodo aliquam, neque felis
-                        placerat dui, a porta ante lectus dapibus est. Aliquam a
-                        bibendum mi, sed condimentum
-                      </span>
+                      <span>{t("aboutText2")}</span>
                     </div>
                     <div className="link">
                       <ul className="first">
                         <li>
                           <i className="zingbox-icon-check" />
-                          <Link href={`/service-detail`}>
-                            Eiusmod tempor incididunt
-                          </Link>
+                          <Link href={`/service-detail`}>{t("reliableDedicated")}</Link>
                         </li>
                         <li>
                           <i className="zingbox-icon-check" />
-                          <Link href={`/service-detail`}>
-                            Aolore magna aliqua
-                          </Link>
+                          <Link href={`/service-detail`}>{t("trainedModern")}</Link>
                         </li>
                       </ul>
                       <ul>
                         <li>
                           <i className="zingbox-icon-check" />
-                          <Link href={`/service-detail`}>
-                            Sonsectetur adipisicing elit
-                          </Link>
+                          <Link href={`/service-detail`}>{t("skilledStaff")}</Link>
                         </li>
                         <li>
                           <i className="zingbox-icon-check" />
-                          <Link href={`/service-detail`}>
-                            Exercitation ullamco laboris
-                          </Link>
+                          <Link href={`/service-detail`}>{t("focusedQuality")}</Link>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
               )}
-              {/* /.tab-content */}{" "}
               {activeIndex == 2 && (
                 <div className="tab-content">
                   <div className="item-content">
                     <div className="infor">
-                      <span>
-                        Aliquam faucibus, odio nec commodo aliquam, neque felis
-                        placerat dui, a porta ante lectus dapibus est. Aliquam a
-                        bibendum mi, sed condimentum
-                      </span>
+                      <span>{t("aboutText3")}</span>
                     </div>
                     <div className="link">
                       <ul className="first">
                         <li>
                           <i className="zingbox-icon-check" />
-                          <Link href={`/service-detail`}>
-                            Sonsectetur adipisicing elit
-                          </Link>
+                          <Link href={`/service-detail`}>{t("skilledStaff")}</Link>
                         </li>
                         <li>
                           <i className="zingbox-icon-check" />
-                          <Link href={`/service-detail`}>
-                            Exercitation ullamco laboris
-                          </Link>
+                          <Link href={`/service-detail`}>{t("reliableDedicated")}</Link>
                         </li>
                       </ul>
                       <ul>
                         <li>
                           <i className="zingbox-icon-check" />
-                          <Link href={`/service-detail`}>
-                            Eiusmod tempor incididunt
-                          </Link>
+                          <Link href={`/service-detail`}>{t("trainedModern")}</Link>
                         </li>
                         <li>
                           <i className="zingbox-icon-check" />
-                          <Link href={`/service-detail`}>
-                            Aolore magna aliqua
-                          </Link>
+                          <Link href={`/service-detail`}>{t("focusedQuality")}</Link>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
               )}
-              {/* /.tab-content */}
             </div>
-            {/* /.tab-content-wrap */}
           </div>
         </div>
         <div className="col-xl-6 col-lg-12">

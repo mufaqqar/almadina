@@ -1,24 +1,18 @@
+"use client";
 import Link from "next/link";
+import { useLanguage } from "../common/LanguageContext";
 
 export default function Experience() {
+  const { t } = useLanguage();
   return (
     <div className="row-experiences padding-bottom-682">
       <div className="container">
         <div className="row-experiences-content wow zoomInDown">
           <div className="row">
-            <h1 className="heading-experiences">EXPERIENCED TECHNICIANS</h1>
+            <h1 className="heading-experiences">{t("experiencedTechs")}</h1>
           </div>
           <div className="row">
-            <p className="content">
-              Our team of experienced technicians brings years of hands-on expertise, {" "}
-              <br />
-              ensuring every repair is completed with precision, efficiency, and care.  {" "}
-              <br />
-              Skilled in modern diagnostic techniques, they deliver
-              <br />
-              high-quality repairs that exceed expectations.
-
-            </p>
+            <p className="content">{t("experienceDesc")}</p>
           </div>
           <div className="row">
             <div className="link wow fadeInRight">
@@ -27,13 +21,13 @@ export default function Experience() {
                   <li className="left">
                     <Link href={`/service-detail`}>
                       <i className="zingbox-icon-check" />
-                      Skilled & knowledgeable staff
+                      {t("skilledStaff")}
                     </Link>
                   </li>
                   <li className="left">
                     <Link href={`/service-detail`}>
                       <i className="zingbox-icon-check" />
-                      Reliable and dedicated
+                      {t("reliableDedicated")}
                     </Link>
                   </li>
                 </ul>
@@ -43,13 +37,13 @@ export default function Experience() {
                   <li className="right">
                     <Link href={`/service-detail`}>
                       <i className="zingbox-icon-check" />
-                      Trained in modern techniques
+                      {t("trainedModern")}
                     </Link>
                   </li>
                   <li className="right">
                     <Link href={`/service-detail`}>
                       <i className="zingbox-icon-check" />
-                      Focused on quality results
+                      {t("focusedQuality")}
                     </Link>
                   </li>
                 </ul>
