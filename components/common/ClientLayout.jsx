@@ -2,6 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
+import { FloatingWhatsApp } from "@digicroz/react-floating-whatsapp";
 import BacktoTop from "./BacktoTop";
 
 export default function ClientLayout() {
@@ -56,5 +57,19 @@ export default function ClientLayout() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  return <BacktoTop />;
+  return (
+    <>
+      <FloatingWhatsApp
+        phoneNumber="966535251023"
+        accountName="Al Madina Tabreed"
+        statusMessage="Typically replies within 1 hour"
+        chatMessage="Hello! 👋 How can we help you today?"
+        allowClickAway
+        allowEsc
+        notification
+        notificationSound
+      />
+      <BacktoTop />
+    </>
+  );
 }

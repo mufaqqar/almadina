@@ -44,6 +44,9 @@ export default function Header1() {
                   >
                     {language === "en" ? "العربية" : "English"}
                   </button>
+                  <a href="https://wa.me/966535251023" target="_blank" rel="noopener noreferrer">
+                    <i className="fa fa-whatsapp" />
+                  </a>
                   <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                     <i className="fa fa-facebook" />
                   </a>

@@ -123,6 +123,9 @@ export default function Footer1() {
                   <div className="footer-socials">
                     <div className="inner">
                       <span className="icons">
+                        <a className="active" href="https://wa.me/966535251023" target="_blank" rel="noopener noreferrer">
+                          <i className="fa fa-whatsapp" />
+                        </a>
                         <a className="active" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                           <i className="fa fa-facebook-square" />
                         </a>
