@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import axios from "axios";
 import { useLanguage } from "@/components/common/LanguageContext";
 import { widgets } from "@/data/footerLinks";
 export default function Footer1() {
@@ -17,32 +16,15 @@ export default function Footer1() {
     }, 2000);
   };
 
-  const sendEmail = async (e) => {
-    e.preventDefault(); // Prevent default form submission behavior
-    const email = e.target.email.value;
-
-    try {
-      const response = await axios.post(
-        "https://express-brevomail.vercel.app/api/contacts",
-        {
-          email,
-        },
-      );
-
-      if ([200, 201].includes(response.status)) {
-        e.target.reset(); // Reset the form
-        setSuccess(true); // Set success state
-        handleShowMessage();
-      } else {
-        setSuccess(false); // Handle unexpected responses
-        handleShowMessage();
-      }
-    } catch (error) {
-      console.error("Error:", error.response?.data || "An error occurred");
-      setSuccess(false); // Set error state
-      handleShowMessage();
-      e.target.reset(); // Reset the form
-    }
+  const sendToWhatsApp = (e) => {
+    e.preventDefault();
+    const phone = e.target.phone.value.trim();
+    if (!phone) return;
+    const msg = encodeURIComponent(`Hi, I'm interested in your services. My phone number is: ${phone}`);
+    window.open(`https://wa.me/966535251023?text=${msg}`, "_blank");
+    e.target.reset();
+    setSuccess(true);
+    handleShowMessage();
   };
   const linkTextTKey = {
     "AC Repair": "acRepair",
@@ -196,13 +178,13 @@ export default function Footer1() {
                     <p style={{ color: "red" }}>{t("subscribeError")}</p>
                   )}
                 </div>
-                <form onSubmit={sendEmail} className="email-form">
+                  <form onSubmit={sendToWhatsApp} className="email-form">
                   <div className="Email">
                     <input
                       required
-                      name="email"
-                      type="text"
-                      placeholder={t("emailPlaceholder")}
+                      name="phone"
+                      type="tel"
+                      placeholder={t("phonePlaceholder") || "Your WhatsApp number"}
                     />
                   </div>
                   <div>

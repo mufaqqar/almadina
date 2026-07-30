@@ -6,6 +6,7 @@ import Blogs from "@/components/homes/home-1/Blogs";
 import Contact from "@/components/homes/home-1/Contact";
 import Experience from "@/components/homes/home-1/Experience";
 import Facts from "@/components/homes/home-1/Facts";
+import Gallery from "@/components/homes/home-1/Gallery";
 import Hero from "@/components/homes/home-1/Hero";
 // import Process from "@/components/homes/home-1/Process";
 import Services from "@/components/homes/home-1/Services";
@@ -31,7 +32,8 @@ export default function Home() {
               <Services />
               <Facts />
               <Experience />
-               <Testimonials />           
+               <Testimonials />
+              <Gallery />
               <Contact />     
             </div>
             <Footer1 />
