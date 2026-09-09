@@ -25,7 +25,7 @@ export default function Contact() {
               </div>
               <ul className="socical-icon">
                 <li>
-                  <a href="https://wa.me/966535251023" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/966583086233" target="_blank" rel="noopener noreferrer">
                     <i className="fa fa-whatsapp" />
                   </a>
                 </li>

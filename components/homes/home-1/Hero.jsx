@@ -52,7 +52,7 @@ export default function Hero() {
                 dangerouslySetInnerHTML={{ __html: t("slide1Desc") }}
               ></div>
               <div className="">
-                <a href="https://wa.me/966535251023" target="_blank" rel="noopener noreferrer" className="btn get-a-quote">
+                <a href="https://wa.me/966583086233" target="_blank" rel="noopener noreferrer" className="btn get-a-quote">
                   {t("getAQuote")}
                 </a>
               </div>{" "}
@@ -83,7 +83,7 @@ export default function Hero() {
                 dangerouslySetInnerHTML={{ __html: t("slide2Desc") }}
               ></div>
               <div className="">
-                <a href="https://wa.me/966535251023" target="_blank" rel="noopener noreferrer" className="btn get-a-quote">
+                <a href="https://wa.me/966583086233" target="_blank" rel="noopener noreferrer" className="btn get-a-quote">
                   {t("getAQuote")}
                 </a>
               </div>{" "}

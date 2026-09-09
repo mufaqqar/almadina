@@ -20,8 +20,8 @@ export default function Header1() {
                   {t("address")}
                 </span>
                  <span className="whatsapp content">
-                    <a href="https://wa.me/966535251023" target="_blank" rel="noopener noreferrer" style={{color:'#fff'}}>
-                      <i className="fa fa-whatsapp" /> +966 53 525 1023
+                    <a href="https://wa.me/966583086233" target="_blank" rel="noopener noreferrer" style={{color:'#fff'}}>
+                      <i className="fa fa-whatsapp" /> +966 58 308 6233
                     </a>
                   </span>
               </div>
@@ -46,7 +46,7 @@ export default function Header1() {
                   >
                     {language === "en" ? "العربية" : "English"}
                   </button>
-                  <a href="https://wa.me/966535251023" target="_blank" rel="noopener noreferrer">
+                  <a href="https://wa.me/966583086233" target="_blank" rel="noopener noreferrer">
                     <i className="fa fa-whatsapp" />
                   </a>
                   <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
@@ -83,7 +83,7 @@ export default function Header1() {
               </ul>
             </nav>
             <div id="header-get-a-quote">
-              <a href="https://wa.me/966535251023" target="_blank" rel="noopener noreferrer" className="header-get-a-quote-icon">
+              <a href="https://wa.me/966583086233" target="_blank" rel="noopener noreferrer" className="header-get-a-quote-icon">
                 {t("getAQuote")}
               </a>
             </div>

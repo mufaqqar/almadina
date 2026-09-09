@@ -93,7 +93,7 @@ export default function Sidebar() {
             <div className="widget-banner-inner-wrap">
               <h5 className="your-headline-here">{t("needApplianceRepair") || "Need Appliance Repair?"}</h5>
               <div className="btn your-headline-here">
-                <a href="https://wa.me/966535251023" target="_blank" rel="noopener noreferrer">{t("getAQuote")}</a>
+                <a href="https://wa.me/966583086233" target="_blank" rel="noopener noreferrer">{t("getAQuote")}</a>
               </div>
             </div>
           </div>

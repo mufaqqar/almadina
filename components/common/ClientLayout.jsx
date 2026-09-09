@@ -60,7 +60,7 @@ export default function ClientLayout() {
   return (
     <>
       <FloatingWhatsApp
-        phoneNumber="966535251023"
+        phoneNumber="966583086233"
         accountName="Al Madina Tabreed"
         statusMessage="Typically replies within 1 hour"
         chatMessage="Hello! 👋 How can we help you today?"
