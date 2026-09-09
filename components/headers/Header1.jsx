@@ -19,9 +19,11 @@ export default function Header1() {
                 <span className="location content">
                   {t("address")}
                 </span>
-                 <span className="envelope content">
-                   <a href="mailto:info@almadinatabreed.com" style={{color:'#fff'}}>info@almadinatabreed.com</a>
-                 </span>
+                 <span className="whatsapp content">
+                    <a href="https://wa.me/966535251023" target="_blank" rel="noopener noreferrer" style={{color:'#fff'}}>
+                      <i className="fa fa-whatsapp" /> +966 53 525 1023
+                    </a>
+                  </span>
               </div>
             </div>
             {/* /.top-bar-content */}

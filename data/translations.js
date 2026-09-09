@@ -8,8 +8,8 @@ export const translations = {
     contact: "Contact",
 
     // Header
-    address: "Prince Majed Bin Abdulaziz Rd, Ar Rayyan, Riyadh 14214, Saudi Arabia",
-    email: "info@almadinatabreed.com",
+    address: "شارع عبداللہ, Abdallah Ibn Abbas, Ar Rawabi, Riyadh 14214, Saudi Arabia",
+    whatsapp: "+966 53 525 1023",
     getAQuote: "Get A Quote",
 
     // Hero
@@ -266,8 +266,8 @@ export const translations = {
     blog: "\u0627\u0644\u0645\u062F\u0648\u0646\u0629",
     contact: "\u0627\u062A\u0635\u0644 \u0628\u0646\u0627",
 
-    address: "\D827\DDC5",
-    email: "info@almadinatabreed.com",
+    address: "شارع عبداللہ, Abdallah Ibn Abbas, Ar Rawabi, Riyadh 14214, Saudi Arabia",
+    whatsapp: "+966 53 525 1023",
     getAQuote: "\u0627\u0637\u0644\u0628 \u0639\u0631\u0636 \u0633\u0639\u0631",
 
     slide1Title: "\u0633\u0631\u064A\u0639. \u0645\u0648\u062B\u0648\u0642. \u0628\u0623\u0633\u0639\u0627\u0631 \u0645\u0646\u0627\u0633\u0628\u0629",
